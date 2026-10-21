@@ -75,19 +75,6 @@
     "android": null,
     "ios": null,
     "whatsapp": null
-   },
-   {
-    "char": "ϩ",
-    "cp": "U+03E9",
-    "name": "COPTIC SMALL LETTER HORI",
-    "bidi": "L",
-    "source": [
-     "claude"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
    }
   ],
   "rejected": [
@@ -98,7 +85,8 @@
    "U+2CC9",
    "U+10530",
    "U+0EA7",
-   "U+1E959"
+   "U+1E959",
+   "U+03E9"
   ]
  },
  "ג": {
@@ -538,6 +526,19 @@
     "whatsapp": null
    },
    {
+    "char": "𑱖",
+    "cp": "U+11C56",
+    "name": "BHAIKSUKI DIGIT SIX",
+    "bidi": "L",
+    "source": [
+     "claude"
+    ],
+    "proposed": true,
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
     "char": "𐒑",
     "cp": "U+10491",
     "name": "OSMANYA LETTER MIIN",
@@ -562,49 +563,10 @@
     "whatsapp": null
    },
    {
-    "char": "𐨡",
-    "cp": "U+10A21",
-    "name": "KHAROSHTHI LETTER DA",
-    "bidi": "R",
-    "source": [
-     "claude"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "𞠞",
     "cp": "U+1E81E",
     "name": "MENDE KIKAKUI SYLLABLE M150 BEE",
     "bidi": "R",
-    "source": [
-     "claude"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𑱖",
-    "cp": "U+11C56",
-    "name": "BHAIKSUKI DIGIT SIX",
-    "bidi": "L",
-    "source": [
-     "claude"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐒡",
-    "cp": "U+104A1",
-    "name": "OSMANYA DIGIT ONE",
-    "bidi": "L",
     "source": [
      "claude"
     ],
@@ -618,7 +580,9 @@
    "U+084F",
    "U+10535",
    "U+114D1",
-   "U+09E7"
+   "U+09E7",
+   "U+104A1",
+   "U+10A21"
   ]
  },
  "ח": {
@@ -2646,19 +2610,6 @@
     "whatsapp": null
    },
    {
-    "char": "ⱇ",
-    "cp": "U+2C47",
-    "name": "GLAGOLITIC SMALL LETTER FRITU",
-    "bidi": "L",
-    "source": [
-     "claude"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "ᵩ",
     "cp": "U+1D69",
     "name": "GREEK SUBSCRIPT SMALL LETTER PHI",
@@ -2676,7 +2627,8 @@
    "U+0444",
    "U+03C8",
    "U+10421",
-   "U+0470"
+   "U+0470",
+   "U+2C47"
   ]
  },
  "ק": {
@@ -2965,3 +2917,4 @@
   ]
  }
 }
+
