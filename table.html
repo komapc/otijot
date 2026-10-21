@@ -15,8 +15,10 @@
   </nav>
   <p class="muted">
     Конвертер берёт первый символ (пунктирная рамка). Клик по символу закрепляет его вместо первого (сплошная рамка, повторный клик — снять).
-    Оранжевые — предложения Claude, синие — второй раунд, фиолетовые — третий (по рукописному ивриту; новые письменности могут не отображаться на телефоне): ✓ принять, ✕ отклонить (больше не появится). Пока не приняты, конвертер их не использует.
+    Цвет — направление символа: синие RTL, оранжевые LTR, фиолетовые нейтральные (знаки, цифры).
+    Точечная рамка — предложение Claude (новые письменности могут не отображаться на телефоне): ✓ принять, ✕ отклонить (больше не появится). Пока не приняты, конвертер их не использует.
     Порядок = приоритет: перетаскивайте карточки или жмите ◀ ▶ (номер — в начало).
+    Карточку можно перетащить и на другую букву — у старой она запомнится как отклонённая.
     A / i / W — проверено на Android / iOS / WhatsApp (клик: ? → ✓ → ✗).
     Правки хранятся черновиком в браузере; «Скачать JSON» — чтобы заменить mapping.json в репо.
   </p>
@@ -42,6 +44,26 @@
     save();
     render();
   }
+
+  // Move a candidate to another letter (at index `to`, or the end). The old letter remembers it
+  // as rejected, so proposals.json doesn't put it back there.
+  function transfer(src, from, dst, to = dst.candidates.length) {
+    const [cand] = src.candidates.splice(from, 1);
+    if (src.chosen === cand.cp) src.chosen = null;
+    if (!(src.rejected || []).includes(cand.cp)) src.rejected = [...(src.rejected || []), cand.cp];
+    dst.rejected = (dst.rejected || []).filter((cp) => cp !== cand.cp);
+    if (!dst.candidates.some((c) => c.cp === cand.cp)) dst.candidates.splice(to, 0, cand);
+    save();
+    render();
+  }
+
+  function drop(entry, to) {
+    if (!dragging) return;
+    if (dragging.entry === entry) move(entry, dragging.from, to ?? entry.candidates.length - 1);
+    else transfer(dragging.entry, dragging.from, entry, to);
+  }
+
+  const BIDI_CLASS = (bidi) => (bidi === "R" || bidi === "AL" ? " rtl" : bidi === "L" ? " ltr" : " neutral");
 
   function parseInput(raw) {
     const s = raw.trim();
@@ -83,8 +105,7 @@
         const box = document.createElement("div");
         const isDefault = !entry.chosen && usable(entry)[0] === cand;
         box.className = "cand" + (entry.chosen === cand.cp ? " chosen" : isDefault ? " default" : "")
-          + (cand.proposed ? " proposed" : "") + (cand.proposed && cand.source.includes("claude-2") ? " round2" : "")
-          + (cand.proposed && cand.source.includes("claude-3") ? " round3" : "");
+          + (cand.proposed ? " proposed" : "") + BIDI_CLASS(cand.bidi);
 
         const glyph = document.createElement("div");
         glyph.className = "glyph";
@@ -140,7 +161,7 @@
           render();
         });
 
-        // Drag a box onto another one within the same letter to reorder.
+        // Drag a box onto another one to reorder, or onto another letter to move it there.
         box.draggable = true;
         box.addEventListener("dragstart", (e) => {
           dragging = { entry, from: i };
@@ -150,12 +171,13 @@
         });
         box.addEventListener("dragend", () => { dragging = null; render(); });
         box.addEventListener("dragover", (e) => {
-          if (dragging && dragging.entry === entry) { e.preventDefault(); box.classList.add("over"); }
+          if (dragging) { e.preventDefault(); e.stopPropagation(); box.classList.add("over"); }
         });
         box.addEventListener("dragleave", () => box.classList.remove("over"));
         box.addEventListener("drop", (e) => {
           e.preventDefault();
-          if (dragging && dragging.entry === entry) move(entry, dragging.from, i);
+          e.stopPropagation();
+          drop(entry, i);
         });
 
         box.append(glyph, meta, flags, tools);
@@ -179,6 +201,13 @@
       btn.addEventListener("click", doAdd);
       input.addEventListener("keydown", (e) => { if (e.key === "Enter") doAdd(); });
       add.append(input, btn);
+
+      // Dropping anywhere else on the row (the Hebrew letter, empty space) appends to this letter.
+      row.addEventListener("dragover", (e) => {
+        if (dragging && dragging.entry !== entry) { e.preventDefault(); row.classList.add("over"); }
+      });
+      row.addEventListener("dragleave", (e) => { if (!row.contains(e.relatedTarget)) row.classList.remove("over"); });
+      row.addEventListener("drop", (e) => { e.preventDefault(); drop(entry); });
 
       const right = document.createElement("div");
       right.append(cands, add);
