@@ -140,18 +140,6 @@
     "whatsapp": null
    },
    {
-    "char": "𐡜",
-    "cp": "U+1085C",
-    "name": "IMPERIAL ARAMAIC NUMBER TWENTY",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "𐤮",
     "cp": "U+1092E",
     "name": "LYDIAN LETTER SS",
@@ -163,6 +151,9 @@
     "ios": null,
     "whatsapp": null
    }
+  ],
+  "rejected": [
+   "U+1085C"
   ]
  },
  "ה": {
@@ -186,18 +177,6 @@
  "ו": {
   "chosen": null,
   "candidates": [
-   {
-    "char": "𐡘",
-    "cp": "U+10858",
-    "name": "IMPERIAL ARAMAIC NUMBER ONE",
-    "bidi": "R",
-    "source": [
-     "kobi-site"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
    {
     "char": "𐬥",
     "cp": "U+10B25",
@@ -234,6 +213,9 @@
     "ios": null,
     "whatsapp": null
    }
+  ],
+  "rejected": [
+   "U+10858"
   ]
  },
  "ז": {
@@ -246,18 +228,6 @@
     "bidi": "AL",
     "source": [
      "kobi-site"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "ࡏ",
-    "cp": "U+084F",
-    "name": "MANDAIC LETTER IN",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
     ],
     "android": null,
     "ios": null,
@@ -287,6 +257,9 @@
     "ios": null,
     "whatsapp": null
    }
+  ],
+  "rejected": [
+   "U+084F"
   ]
  },
  "ח": {
@@ -499,19 +472,10 @@
     "android": null,
     "ios": null,
     "whatsapp": null
-   },
-   {
-    "char": "ࠐ",
-    "cp": "U+0810",
-    "name": "SAMARITAN LETTER FI",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
    }
+  ],
+  "rejected": [
+   "U+0810"
   ]
  },
  "ך": {
@@ -577,18 +541,6 @@
   "chosen": null,
   "candidates": [
    {
-    "char": "𐫍",
-    "cp": "U+10ACD",
-    "name": "MANICHAEAN LETTER HETH",
-    "bidi": "R",
-    "source": [
-     "kobi-site"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "𐰇",
     "cp": "U+10C07",
     "name": "OLD TURKIC LETTER ORKHON OE",
@@ -612,6 +564,9 @@
     "ios": null,
     "whatsapp": null
    }
+  ],
+  "rejected": [
+   "U+10ACD"
   ]
  },
  "ם": {
@@ -628,108 +583,15 @@
     "android": null,
     "ios": null,
     "whatsapp": null
-   },
-   {
-    "char": "𐫯",
-    "cp": "U+10AEF",
-    "name": "MANICHAEAN NUMBER ONE HUNDRED",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
    }
+  ],
+  "rejected": [
+   "U+10AEF"
   ]
  },
  "נ": {
   "chosen": null,
   "candidates": [
-   {
-    "char": "𐢃",
-    "cp": "U+10883",
-    "name": "NABATAEAN LETTER BETH",
-    "bidi": "R",
-    "source": [
-     "kobi-site"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐫔",
-    "cp": "U+10AD4",
-    "name": "MANICHAEAN LETTER DHAMEDH",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐢕",
-    "cp": "U+10895",
-    "name": "NABATAEAN LETTER NUN",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐢑",
-    "cp": "U+10891",
-    "name": "NABATAEAN LETTER LAMEDH",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐭡",
-    "cp": "U+10B61",
-    "name": "INSCRIPTIONAL PAHLAVI LETTER BETH",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐭢",
-    "cp": "U+10B62",
-    "name": "INSCRIPTIONAL PAHLAVI LETTER GIMEL",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐼹",
-    "cp": "U+10F39",
-    "name": "SOGDIAN LETTER LAMEDH",
-    "bidi": "AL",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
    {
     "char": "𐺠",
     "cp": "U+10EA0",
@@ -742,6 +604,15 @@
     "ios": null,
     "whatsapp": null
    }
+  ],
+  "rejected": [
+   "U+10883",
+   "U+10891",
+   "U+10895",
+   "U+10AD4",
+   "U+10B61",
+   "U+10B62",
+   "U+10F39"
   ]
  },
  "ן": {
@@ -782,19 +653,10 @@
     "android": null,
     "ios": null,
     "whatsapp": null
-   },
-   {
-    "char": "𐭸",
-    "cp": "U+10B78",
-    "name": "INSCRIPTIONAL PAHLAVI NUMBER ONE",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
    }
+  ],
+  "rejected": [
+   "U+10B78"
   ]
  },
  "ס": {
@@ -1121,18 +983,6 @@
   "chosen": null,
   "candidates": [
    {
-    "char": "𐭽",
-    "cp": "U+10B7D",
-    "name": "INSCRIPTIONAL PAHLAVI NUMBER TWENTY",
-    "bidi": "R",
-    "source": [
-     "kobi-site"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "𐬢",
     "cp": "U+10B22",
     "name": "AVESTAN LETTER NGE",
@@ -1148,18 +998,6 @@
     "char": "𐨢",
     "cp": "U+10A22",
     "name": "KHAROSHTHI LETTER DHA",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐭣",
-    "cp": "U+10B63",
-    "name": "INSCRIPTIONAL PAHLAVI LETTER DALETH",
     "bidi": "R",
     "source": [
      "kobi-sheet"
@@ -1228,6 +1066,10 @@
     "ios": null,
     "whatsapp": null
    }
+  ],
+  "rejected": [
+   "U+10B63",
+   "U+10B7D"
   ]
  },
  "ץ": {
@@ -1314,19 +1156,10 @@
     "android": null,
     "ios": null,
     "whatsapp": null
-   },
-   {
-    "char": "𐡐",
-    "cp": "U+10850",
-    "name": "IMPERIAL ARAMAIC LETTER PE",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
    }
+  ],
+  "rejected": [
+   "U+10850"
   ]
  },
  "ש": {
@@ -1387,18 +1220,6 @@
   "chosen": null,
   "candidates": [
    {
-    "char": "𐢞",
-    "cp": "U+1089E",
-    "name": "NABATAEAN LETTER TAW",
-    "bidi": "R",
-    "source": [
-     "kobi-site"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "ກ",
     "cp": "U+0E81",
     "name": "LAO LETTER KO",
@@ -1410,6 +1231,9 @@
     "ios": null,
     "whatsapp": null
    }
+  ],
+  "rejected": [
+   "U+1089E"
   ]
  }
 }

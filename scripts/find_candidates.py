@@ -23,6 +23,11 @@ TOP = 60           # candidates kept per letter
 
 SKIP_CATEGORIES = {"Cc", "Cf", "Cs", "Co", "Cn", "Zs", "Zl", "Zp", "Mn", "Me"}
 
+# Samaritan, Mandaic, Imperial Aramaic, Palmyrene, Nabataean, Hatran, Phoenician, Manichaean,
+# Parthian/Pahlavi, Sogdian, Chorasmian, Elymaic.
+ARAMAIC_FAMILY = [(0x0800, 0x085F), (0x10840, 0x108FF), (0x10900, 0x1091F), (0x10AC0, 0x10AFF),
+                  (0x10B40, 0x10BAF), (0x10F00, 0x10F6F), (0x10FB0, 0x10FFF)]
+
 
 def skip(cp: int) -> bool:
     if 0x0590 <= cp <= 0x05FF or 0xFB1D <= cp <= 0xFB4F:      # Hebrew itself
@@ -36,6 +41,8 @@ def skip(cp: int) -> bool:
     if 0x13000 <= cp <= 0x1345F or 0x14400 <= cp <= 0x1467F:  # hieroglyphs: pictures, not letters
         return True
     if 0x12000 <= cp <= 0x1254F:                              # cuneiform
+        return True
+    if any(lo <= cp <= hi for lo, hi in ARAMAIC_FAMILY):       # look like print Hebrew, not cursive
         return True
     return unicodedata.category(chr(cp)) in SKIP_CATEGORIES
 

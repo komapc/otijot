@@ -28,11 +28,20 @@ function clearDraft() {
 }
 
 // A local draft (unsaved edits from table.html) wins over mapping.json.
+// Codepoints rejected in mapping.json are dropped from the draft too.
 async function loadTable() {
-  const draft = readDraft();
-  if (draft) return { table: draft, fromDraft: true };
   const res = await fetch("mapping.json", { cache: "no-store" });
-  return { table: await res.json(), fromDraft: false };
+  const base = await res.json();
+  const draft = readDraft();
+  if (!draft) return { table: base, fromDraft: false };
+  for (const [letter, entry] of Object.entries(draft)) {
+    const rejected = new Set([...(entry.rejected || []), ...(base[letter]?.rejected || [])]);
+    if (!rejected.size) continue;
+    entry.rejected = [...rejected];
+    entry.candidates = entry.candidates.filter((c) => !rejected.has(c.cp));
+    if (rejected.has(entry.chosen)) entry.chosen = null;
+  }
+  return { table: draft, fromDraft: true };
 }
 
 // Proposals (from proposals.json) stay out of the converter until accepted in table.html.
