@@ -940,19 +940,6 @@
     "whatsapp": null
    },
    {
-    "char": "カ",
-    "cp": "U+30AB",
-    "name": "KATAKANA LETTER KA",
-    "bidi": "L",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "ո",
     "cp": "U+0578",
     "name": "ARMENIAN SMALL LETTER VO",
@@ -973,7 +960,8 @@
    "U+1260",
    "U+1422",
    "U+11715",
-   "U+16E61"
+   "U+16E61",
+   "U+30AB"
   ]
  },
  "ט": {
@@ -2481,45 +2469,6 @@
     "android": null,
     "ios": null,
     "whatsapp": null
-   },
-   {
-    "char": "𐓢",
-    "cp": "U+104E2",
-    "name": "OSAGE SMALL LETTER HYA",
-    "bidi": "L",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𞋴",
-    "cp": "U+1E2F4",
-    "name": "WANCHO DIGIT FOUR",
-    "bidi": "L",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "Ꭻ",
-    "cp": "U+13AB",
-    "name": "CHEROKEE LETTER GU",
-    "bidi": "L",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
    }
   ],
   "rejected": [
@@ -2535,7 +2484,10 @@
    "U+10EB0",
    "U+2C79",
    "U+027A",
-   "U+078A"
+   "U+078A",
+   "U+1E2F4",
+   "U+13AB",
+   "U+104E2"
   ]
  },
  "ן": {
@@ -4738,6 +4690,19 @@
     "whatsapp": null
    },
    {
+    "char": "カ",
+    "cp": "U+30AB",
+    "name": "KATAKANA LETTER KA",
+    "bidi": "L",
+    "source": [
+     "claude-3"
+    ],
+    "proposed": true,
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
     "char": "ᥟ",
     "cp": "U+195F",
     "name": "TAI LE LETTER QA",
@@ -4793,4 +4758,3 @@
   ]
  }
 }
-
