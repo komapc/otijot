@@ -1093,6 +1093,15 @@
    "source": [
     "claude-3"
    ]
+  },
+  {
+   "char": "ո",
+   "cp": "U+0578",
+   "name": "ARMENIAN SMALL LETTER VO",
+   "bidi": "L",
+   "source": [
+    "claude-3"
+   ]
   }
  ],
  "ט": [
@@ -4766,15 +4775,6 @@
    "bidi": "L",
    "source": [
     "claude-2"
-   ]
-  },
-  {
-   "char": "ո",
-   "cp": "U+0578",
-   "name": "ARMENIAN SMALL LETTER VO",
-   "bidi": "L",
-   "source": [
-    "claude-3"
    ]
   },
   {
