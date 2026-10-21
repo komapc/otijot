@@ -63,6 +63,25 @@ button {
   cursor: pointer;
 }
 button:hover { border-color: var(--accent); }
+/* index.html: the flipping "עברית כתב יד" caption */
+.hero {
+  margin: 8px 0 20px;
+  text-align: center;
+  font-size: clamp(40px, 11vw, 88px);
+  line-height: 1.25;
+  perspective: 600px;
+  user-select: none;
+}
+.hero span {
+  display: inline-block;
+  min-width: 0.55em;
+  color: var(--accent);
+  transition: transform 220ms ease-in, opacity 220ms ease-in, filter 220ms ease-in;
+  text-shadow: 0 0 18px color-mix(in srgb, var(--accent) 35%, transparent);
+}
+.hero span.space { min-width: 0.35em; }
+.hero span.out { transform: rotateX(90deg) scale(0.8); opacity: 0; filter: blur(4px); }
+.hero span:not(.out) { transition-timing-function: cubic-bezier(.2, 1.6, .4, 1); }
 .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
 
 /* table.html */
