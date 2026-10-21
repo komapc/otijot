@@ -17,23 +17,39 @@
   <textarea id="input" dir="rtl" placeholder="כתבו כאן…"></textarea>
   <div class="row">
     <button id="copy">Копировать</button>
+    <label><input type="checkbox" id="random"> Случайно</label>
+    <button id="reroll" hidden>🎲 Ещё раз</button>
     <span class="muted" id="copied"></span>
   </div>
   <div class="output" id="output" dir="rtl"></div>
-  <p class="muted">Буквы без выбранного символа остаются как есть.</p>
+  <p class="muted">
+    По умолчанию — выбранный символ, а если не выбран, первый по приоритету.
+    «Случайно» — любой из кандидатов буквы. Буквы без кандидатов остаются как есть.
+  </p>
 </main>
 <script src="common.js"></script>
 <script>
   (async () => {
     const { table, fromDraft } = await loadTable();
-    const chosen = Object.values(table).filter((e) => e.chosen).length;
+    const mapped = Object.values(table).filter((e) => e.candidates.length).length;
     document.getElementById("status").textContent =
-      `${chosen}/${Object.keys(table).length} букв выбрано` + (fromDraft ? " (черновик)" : "");
+      `${mapped}/${Object.keys(table).length} букв в таблице` + (fromDraft ? " (черновик)" : "");
 
     const input = document.getElementById("input");
     const output = document.getElementById("output");
-    const render = () => { output.textContent = transform(input.value, table); };
+    const random = document.getElementById("random");
+    const reroll = document.getElementById("reroll");
+    let seed = null;
+    const newSeed = () => Math.floor(Math.random() * 2 ** 31);
+    const render = () => { output.textContent = transform(input.value, table, seed); };
+
     input.addEventListener("input", render);
+    random.addEventListener("change", () => {
+      seed = random.checked ? newSeed() : null;
+      reroll.hidden = !random.checked;
+      render();
+    });
+    reroll.addEventListener("click", () => { seed = newSeed(); render(); });
     render();
 
     document.getElementById("copy").addEventListener("click", async () => {

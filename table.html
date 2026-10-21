@@ -14,7 +14,7 @@
     <span class="muted" id="status"></span>
   </nav>
   <p class="muted">
-    Клик по символу — выбрать его для буквы (повторный клик — снять).
+    Конвертер берёт первый символ (пунктирная рамка). Клик по символу закрепляет его вместо первого (сплошная рамка, повторный клик — снять).
     Порядок = приоритет: перетаскивайте карточки или жмите ◀ ▶ (номер — в начало).
     A / i / W — проверено на Android / iOS / WhatsApp (клик: ? → ✓ → ✗).
     Правки хранятся черновиком в браузере; «Скачать JSON» — чтобы заменить mapping.json в репо.
@@ -80,7 +80,8 @@
       cands.className = "cands";
       for (const cand of entry.candidates) {
         const box = document.createElement("div");
-        box.className = "cand" + (entry.chosen === cand.cp ? " chosen" : "");
+        const isDefault = !entry.chosen && entry.candidates[0] === cand;
+        box.className = "cand" + (entry.chosen === cand.cp ? " chosen" : isDefault ? " default" : "");
 
         const glyph = document.createElement("div");
         glyph.className = "glyph";
