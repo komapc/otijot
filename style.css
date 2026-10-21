@@ -8,6 +8,8 @@
   --accent-soft: #dcefe8;
   --proposed: #b8561b;
   --proposed-bg: #fbeee4;
+  --proposed2: #2f5fb8;
+  --proposed2-bg: #e6edfb;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -20,6 +22,8 @@
     --accent-soft: #23362f;
     --proposed: #f0a061;
     --proposed-bg: #33261c;
+    --proposed2: #8fb4f5;
+    --proposed2-bg: #1c2638;
   }
 }
 * { box-sizing: border-box; }
@@ -84,6 +88,8 @@ button:hover { border-color: var(--accent); }
 .cand.default { border: 2px dashed var(--accent); }
 .cand.proposed { background: var(--proposed-bg); border-color: var(--proposed); }
 .cand.proposed .glyph { color: var(--proposed); }
+.cand.proposed.round2 { background: var(--proposed2-bg); border-color: var(--proposed2); }
+.cand.proposed.round2 .glyph { color: var(--proposed2); }
 .cand.dragging { opacity: 0.4; }
 .cand.over { outline: 2px dashed var(--accent); }
 .cand .tools { display: flex; justify-content: center; gap: 2px; margin-top: 4px; }

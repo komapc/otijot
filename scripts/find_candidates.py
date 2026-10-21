@@ -28,6 +28,14 @@ SKIP_CATEGORIES = {"Cc", "Cf", "Cs", "Co", "Cn", "Zs", "Zl", "Zp", "Mn", "Me"}
 ARAMAIC_FAMILY = [(0x0800, 0x085F), (0x10840, 0x108FF), (0x10900, 0x1091F), (0x10AC0, 0x10AFF),
                   (0x10B40, 0x10BAF), (0x10F00, 0x10F6F), (0x10FB0, 0x10FFF)]
 
+# Round 1 review: Latin look-alikes and math styles got rejected, the rest ranks high only because
+# it is a bar or a blob. ASCII, super/subscripts, letterlike, arrows, box drawing, shapes, dingbats,
+# CJK compatibility/vertical/small forms, Arabic presentation forms, fullwidth, math alphanumerics,
+# legacy computing.
+NOT_LETTERS = [(0x0021, 0x007E), (0x2070, 0x209F), (0x2100, 0x21FF), (0x2460, 0x27BF),
+               (0x2B00, 0x2BFF), (0xFB50, 0xFDFF), (0xFE10, 0xFE6F), (0xFE70, 0xFEFF),
+               (0xFF00, 0xFFEF), (0x1D400, 0x1D7FF), (0x1FB00, 0x1FBFF)]
+
 
 def skip(cp: int) -> bool:
     if 0x0590 <= cp <= 0x05FF or 0xFB1D <= cp <= 0xFB4F:      # Hebrew itself
@@ -43,6 +51,8 @@ def skip(cp: int) -> bool:
     if 0x12000 <= cp <= 0x1254F:                              # cuneiform
         return True
     if any(lo <= cp <= hi for lo, hi in ARAMAIC_FAMILY):       # look like print Hebrew, not cursive
+        return True
+    if any(lo <= cp <= hi for lo, hi in NOT_LETTERS):          # styled Latin, line pieces, shapes
         return True
     return unicodedata.category(chr(cp)) in SKIP_CATEGORIES
 
@@ -144,9 +154,11 @@ def main():
 
     ranked = {}
     for letter, entry in mapping.items():
-        refs = [int(c["cp"][2:], 16) for c in entry["candidates"]]
+        # Only kept candidates are references; pending proposals and rejections are just excluded.
+        refs = [int(c["cp"][2:], 16) for c in entry["candidates"] if not c.get("proposed")]
         refs = [cp for cp in refs if cp in glyphs]
         known = {int(c["cp"][2:], 16) for c in entry["candidates"]}
+        known |= {int(cp[2:], 16) for cp in entry.get("rejected", [])}
         if not refs:
             continue
         scores = []
@@ -177,7 +189,7 @@ def sheets(mapping, ranked, glyphs):
     heb_font = ImageFont.truetype("/usr/share/fonts/truetype/noto/NotoSansHebrew-Regular.ttf", 90)
     cell, cols = 120, 10
     for n, (letter, items) in enumerate(ranked.items()):
-        refs = [c for c in mapping[letter]["candidates"] if int(c["cp"][2:], 16) in glyphs][:cols - 1]
+        refs = [c for c in mapping[letter]["candidates"] if not c.get("proposed") and int(c["cp"][2:], 16) in glyphs][:cols - 1]
         rows = 1 + (len(items) + cols - 1) // cols
         img = Image.new("RGB", (cell * cols, cell * rows + 10), "white")
         d = ImageDraw.Draw(img)

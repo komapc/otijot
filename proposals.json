@@ -53,6 +53,60 @@
    "source": [
     "claude"
    ]
+  },
+  {
+   "char": "ᛕ",
+   "cp": "U+16D5",
+   "name": "RUNIC LETTER OPEN-P",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐳞",
+   "cp": "U+10CDE",
+   "name": "OLD HUNGARIAN SMALL LETTER RUDIMENTA OE",
+   "bidi": "R",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ꓗ",
+   "cp": "U+A4D7",
+   "name": "LISU LETTER KA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ꍠ",
+   "cp": "U+A360",
+   "name": "YI SYLLABLE ZHYR",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ꎲ",
+   "cp": "U+A3B2",
+   "name": "YI SYLLABLE SHOT",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ꇿ",
+   "cp": "U+A1FF",
+   "name": "YI SYLLABLE KAT",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
   }
  ],
  "ב": [
@@ -136,6 +190,60 @@
    "source": [
     "claude"
    ]
+  },
+  {
+   "char": "𞠈",
+   "cp": "U+1E808",
+   "name": "MENDE KIKAKUI SYLLABLE M004 WI",
+   "bidi": "R",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᘑ",
+   "cp": "U+1611",
+   "name": "CANADIAN SYLLABICS CARRIER YEE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᘒ",
+   "cp": "U+1612",
+   "name": "CANADIAN SYLLABICS CARRIER YI",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ခ",
+   "cp": "U+1001",
+   "name": "MYANMAR LETTER KHA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᨡ",
+   "cp": "U+1A21",
+   "name": "TAI THAM LETTER HIGH KHA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𞣎",
+   "cp": "U+1E8CE",
+   "name": "MENDE KIKAKUI DIGIT EIGHT",
+   "bidi": "R",
+   "source": [
+    "claude-2"
+   ]
   }
  ],
  "ג": [
@@ -209,6 +317,60 @@
    "bidi": "L",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "𐑔",
+   "cp": "U+10454",
+   "name": "SHAVIAN LETTER THIGH",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑚤",
+   "cp": "U+116A4",
+   "name": "TAKRI LETTER RA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐦥",
+   "cp": "U+109A5",
+   "name": "MEROITIC CURSIVE LETTER WA",
+   "bidi": "R",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᘧ",
+   "cp": "U+1627",
+   "name": "CANADIAN SYLLABICS CARRIER LA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𖨮",
+   "cp": "U+16A2E",
+   "name": "BAMUM LETTER PHASE-F LOQ",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᖙ",
+   "cp": "U+1599",
+   "name": "CANADIAN SYLLABICS SAYISI SHO",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -302,6 +464,51 @@
    "source": [
     "claude"
    ]
+  },
+  {
+   "char": "༣",
+   "cp": "U+0F23",
+   "name": "TIBETAN DIGIT THREE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᨯ",
+   "cp": "U+1A2F",
+   "name": "TAI THAM LETTER DA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑋚",
+   "cp": "U+112DA",
+   "name": "KHUDAWADI LETTER LA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑚡",
+   "cp": "U+116A1",
+   "name": "TAKRI LETTER BHA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "Ԇ",
+   "cp": "U+0506",
+   "name": "CYRILLIC CAPITAL LETTER KOMI DZJE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
   }
  ],
  "ה": [
@@ -339,6 +546,15 @@
    "bidi": "L",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "ᬊ",
+   "cp": "U+1B0A",
+   "name": "BALINESE LETTER UKARA TEDUNG",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -405,6 +621,24 @@
    "source": [
     "claude"
    ]
+  },
+  {
+   "char": "ᛁ",
+   "cp": "U+16C1",
+   "name": "RUNIC LETTER ISAZ IS ISS I",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ⵏ",
+   "cp": "U+2D4F",
+   "name": "TIFINAGH LETTER YAN",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
   }
  ],
  "ז": [
@@ -469,6 +703,42 @@
    "bidi": "L",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "ն",
+   "cp": "U+0576",
+   "name": "ARMENIAN SMALL LETTER NOW",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ե",
+   "cp": "U+0565",
+   "name": "ARMENIAN SMALL LETTER ECH",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᱩ",
+   "cp": "U+1C69",
+   "name": "OL CHIKI LETTER LU",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐕃",
+   "cp": "U+10543",
+   "name": "CAUCASIAN ALBANIAN LETTER JHOX",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -552,6 +822,60 @@
    "bidi": "L",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "ꮑ",
+   "cp": "U+AB91",
+   "name": "CHEROKEE SMALL LETTER NE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᐢ",
+   "cp": "U+1422",
+   "name": "CANADIAN SYLLABICS FINAL TOP HALF RING",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𞋔",
+   "cp": "U+1E2D4",
+   "name": "WANCHO LETTER KA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "Ი",
+   "cp": "U+1C98",
+   "name": "GEORGIAN MTAVRULI CAPITAL LETTER IN",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑜕",
+   "cp": "U+11715",
+   "name": "AHOM LETTER GA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᶮ",
+   "cp": "U+1DAE",
+   "name": "MODIFIER LETTER SMALL N WITH LEFT HOOK",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -662,6 +986,60 @@
    "bidi": "L",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "ᧈ",
+   "cp": "U+19C8",
+   "name": "NEW TAI LUE TONE MARK-1",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "Ꮾ",
+   "cp": "U+13EE",
+   "name": "CHEROKEE LETTER WV",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐐞",
+   "cp": "U+1041E",
+   "name": "DESERET CAPITAL LETTER ZEE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ճ",
+   "cp": "U+0573",
+   "name": "ARMENIAN SMALL LETTER CHEH",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑊑",
+   "cp": "U+11291",
+   "name": "MULTANI LETTER TTHA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𛱖",
+   "cp": "U+1BC56",
+   "name": "DUPLOYAN LETTER ROMANIAN U",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -820,6 +1198,78 @@
    "source": [
     "claude"
    ]
+  },
+  {
+   "char": "ᑐ",
+   "cp": "U+1450",
+   "name": "CANADIAN SYLLABICS TO",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐐣",
+   "cp": "U+10423",
+   "name": "DESERET CAPITAL LETTER EM",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "᧑",
+   "cp": "U+19D1",
+   "name": "NEW TAI LUE DIGIT ONE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᩣ",
+   "cp": "U+1A63",
+   "name": "TAI THAM VOWEL SIGN AA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ꫠ",
+   "cp": "U+AAE0",
+   "name": "MEETEI MAYEK LETTER E",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᙂ",
+   "cp": "U+1642",
+   "name": "CANADIAN SYLLABICS CARRIER ZE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𖩀",
+   "cp": "U+16A40",
+   "name": "MRO LETTER TA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𛱹",
+   "cp": "U+1BC79",
+   "name": "DUPLOYAN AFFIX ATTACHED TAIL",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
   }
  ],
  "ך": [
@@ -920,6 +1370,60 @@
    "bidi": "R",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "𐑐",
+   "cp": "U+10450",
+   "name": "SHAVIAN LETTER PEEP",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "႗",
+   "cp": "U+1097",
+   "name": "MYANMAR SHAN DIGIT SEVEN",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᜪ",
+   "cp": "U+172A",
+   "name": "HANUNOO LETTER BA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐝃",
+   "cp": "U+10743",
+   "name": "LINEAR A SIGN A704 E",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "᭞",
+   "cp": "U+1B5E",
+   "name": "BALINESE CARIK SIKI",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "꣒",
+   "cp": "U+A8D2",
+   "name": "SAURASHTRA DIGIT TWO",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -1040,6 +1544,60 @@
    "source": [
     "claude"
    ]
+  },
+  {
+   "char": "រ",
+   "cp": "U+179A",
+   "name": "KHMER LETTER RO",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "⳽",
+   "cp": "U+2CFD",
+   "name": "COPTIC FRACTION ONE HALF",
+   "bidi": "ON",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ⸯ",
+   "cp": "U+2E2F",
+   "name": "VERTICAL TILDE",
+   "bidi": "ON",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᶴ",
+   "cp": "U+1DB4",
+   "name": "MODIFIER LETTER SMALL ESH",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐩆",
+   "cp": "U+10A46",
+   "name": "KHAROSHTHI NUMBER ONE HUNDRED",
+   "bidi": "R",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "꩝",
+   "cp": "U+AA5D",
+   "name": "CHAM PUNCTUATION DANDA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
   }
  ],
  "מ": [
@@ -1114,6 +1672,60 @@
    "source": [
     "claude"
    ]
+  },
+  {
+   "char": "ꤲ",
+   "cp": "U+A932",
+   "name": "REJANG LETTER NGA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᐥ",
+   "cp": "U+1425",
+   "name": "CANADIAN SYLLABICS FINAL DOUBLE ACUTE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "᮷",
+   "cp": "U+1BB7",
+   "name": "SUNDANESE DIGIT SEVEN",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "Ꜻ",
+   "cp": "U+A73A",
+   "name": "LATIN CAPITAL LETTER AV WITH HORIZONTAL BAR",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᚴ",
+   "cp": "U+16B4",
+   "name": "RUNIC LETTER KAUN K",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᚫ",
+   "cp": "U+16AB",
+   "name": "RUNIC LETTER AESC",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
   }
  ],
  "ם": [
@@ -1142,6 +1754,42 @@
    "bidi": "L",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "𐬂",
+   "cp": "U+10B02",
+   "name": "AVESTAN LETTER AO",
+   "bidi": "R",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐬃",
+   "cp": "U+10B03",
+   "name": "AVESTAN LETTER AAO",
+   "bidi": "R",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "᭧",
+   "cp": "U+1B67",
+   "name": "BALINESE MUSICAL SYMBOL DAENG",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ބ",
+   "cp": "U+0784",
+   "name": "THAANA LETTER BAA",
+   "bidi": "AL",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -1253,6 +1901,60 @@
    "source": [
     "claude"
    ]
+  },
+  {
+   "char": "𐑓",
+   "cp": "U+10453",
+   "name": "SHAVIAN LETTER FEE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐑨",
+   "cp": "U+10468",
+   "name": "SHAVIAN LETTER ASH",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "᧒",
+   "cp": "U+19D2",
+   "name": "NEW TAI LUE DIGIT TWO",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "꒑",
+   "cp": "U+A491",
+   "name": "YI RADICAL LI",
+   "bidi": "ON",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𖼳",
+   "cp": "U+16F33",
+   "name": "MIAO LETTER SHA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "㇁",
+   "cp": "U+31C1",
+   "name": "CJK STROKE WG",
+   "bidi": "ON",
+   "source": [
+    "claude-2"
+   ]
   }
  ],
  "ן": [
@@ -1326,6 +2028,60 @@
    "bidi": "L",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "ܙ",
+   "cp": "U+0719",
+   "name": "SYRIAC LETTER ZAIN",
+   "bidi": "AL",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐑢",
+   "cp": "U+10462",
+   "name": "SHAVIAN LETTER WOE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐑘",
+   "cp": "U+10458",
+   "name": "SHAVIAN LETTER YEA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᥣ",
+   "cp": "U+1963",
+   "name": "TAI LE LETTER A",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑈸",
+   "cp": "U+11238",
+   "name": "KHOJKI DANDA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑱁",
+   "cp": "U+11C41",
+   "name": "BHAIKSUKI DANDA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -1409,6 +2165,78 @@
    "bidi": "L",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "ᦞ",
+   "cp": "U+199E",
+   "name": "NEW TAI LUE LETTER LOW VA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "᧐",
+   "cp": "U+19D0",
+   "name": "NEW TAI LUE DIGIT ZERO",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "᱀",
+   "cp": "U+1C40",
+   "name": "LEPCHA DIGIT ZERO",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐓪",
+   "cp": "U+104EA",
+   "name": "OSAGE SMALL LETTER O",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐐄",
+   "cp": "U+10404",
+   "name": "DESERET CAPITAL LETTER LONG O",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "꧐",
+   "cp": "U+A9D0",
+   "name": "JAVANESE DIGIT ZERO",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𛱄",
+   "cp": "U+1BC44",
+   "name": "DUPLOYAN LETTER O",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "᪀",
+   "cp": "U+1A80",
+   "name": "TAI THAM HORA DIGIT ZERO",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -1519,6 +2347,69 @@
    "bidi": "L",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "𑓔",
+   "cp": "U+114D4",
+   "name": "TIRHUTA DIGIT FOUR",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐒀",
+   "cp": "U+10480",
+   "name": "OSMANYA LETTER ALEF",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "૪",
+   "cp": "U+0AEA",
+   "name": "GUJARATI DIGIT FOUR",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "៵",
+   "cp": "U+17F5",
+   "name": "KHMER SYMBOL LEK ATTAK PRAM",
+   "bidi": "ON",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑄷",
+   "cp": "U+11137",
+   "name": "CHAKMA DIGIT ONE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑖙",
+   "cp": "U+11599",
+   "name": "SIDDHAM LETTER TTHA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "Ჾ",
+   "cp": "U+1CBE",
+   "name": "GEORGIAN MTAVRULI CAPITAL LETTER HARD SIGN",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -1648,6 +2539,60 @@
    "source": [
     "claude"
    ]
+  },
+  {
+   "char": "ဓ",
+   "cp": "U+1013",
+   "name": "MYANMAR LETTER DHA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ꧠ",
+   "cp": "U+A9E0",
+   "name": "MYANMAR LETTER SHAN GHA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐐂",
+   "cp": "U+10402",
+   "name": "DESERET CAPITAL LETTER LONG A",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑄅",
+   "cp": "U+11105",
+   "name": "CHAKMA LETTER U",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𛱝",
+   "cp": "U+1BC5D",
+   "name": "DUPLOYAN LETTER WO",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𞄚",
+   "cp": "U+1E11A",
+   "name": "NYIAKENG PUACHUE HMONG LETTER PA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
   }
  ],
  "ף": [
@@ -1712,6 +2657,51 @@
    "bidi": "EN",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "ᕵ",
+   "cp": "U+1575",
+   "name": "CANADIAN SYLLABICS NUNAVIK HI",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "൧",
+   "cp": "U+0D67",
+   "name": "MALAYALAM DIGIT ONE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𖠯",
+   "cp": "U+1682F",
+   "name": "BAMUM LETTER PHASE-A LUAEP",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𖨍",
+   "cp": "U+16A0D",
+   "name": "BAMUM LETTER PHASE-F MEEEE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𝆑",
+   "cp": "U+1D191",
+   "name": "MUSICAL SYMBOL FORTE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -1841,6 +2831,69 @@
    "source": [
     "claude"
    ]
+  },
+  {
+   "char": "𐋧",
+   "cp": "U+102E7",
+   "name": "COPTIC EPACT DIGIT SEVEN",
+   "bidi": "EN",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐬤",
+   "cp": "U+10B24",
+   "name": "AVESTAN LETTER NGVE",
+   "bidi": "R",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑙓",
+   "cp": "U+11653",
+   "name": "MODI DIGIT THREE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𖹾",
+   "cp": "U+16E7E",
+   "name": "MEDEFAIDRIN SMALL LETTER AI",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐐚",
+   "cp": "U+1041A",
+   "name": "DESERET CAPITAL LETTER VEE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𖼻",
+   "cp": "U+16F3B",
+   "name": "MIAO LETTER ZA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "᭔",
+   "cp": "U+1B54",
+   "name": "BALINESE DIGIT FOUR",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
   }
  ],
  "ץ": [
@@ -1914,6 +2967,69 @@
    "bidi": "L",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "ᛰ",
+   "cp": "U+16F0",
+   "name": "RUNIC BELGTHOR SYMBOL",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ቀ",
+   "cp": "U+1240",
+   "name": "ETHIOPIC SYLLABLE QA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐊳",
+   "cp": "U+102B3",
+   "name": "CARIAN LETTER NN",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ⳡ",
+   "cp": "U+2CE1",
+   "name": "COPTIC SMALL LETTER OLD NUBIAN NYI",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐲲",
+   "cp": "U+10CB2",
+   "name": "OLD HUNGARIAN CAPITAL LETTER US",
+   "bidi": "R",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐑉",
+   "cp": "U+10449",
+   "name": "DESERET SMALL LETTER ER",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐕠",
+   "cp": "U+10560",
+   "name": "CAUCASIAN ALBANIAN LETTER CAYN",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -2025,6 +3141,78 @@
    "source": [
     "claude"
    ]
+  },
+  {
+   "char": "𐓭",
+   "cp": "U+104ED",
+   "name": "OSAGE SMALL LETTER EHPA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ꬆ",
+   "cp": "U+AB06",
+   "name": "ETHIOPIC SYLLABLE TTHO",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᚧ",
+   "cp": "U+16A7",
+   "name": "RUNIC LETTER ETH",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᱞ",
+   "cp": "U+1C5E",
+   "name": "OL CHIKI LETTER AL",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐌓",
+   "cp": "U+10313",
+   "name": "OLD ITALIC LETTER ER",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᕉ",
+   "cp": "U+1549",
+   "name": "CANADIAN SYLLABICS ROO",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "բ",
+   "cp": "U+0562",
+   "name": "ARMENIAN SMALL LETTER BEN",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐓄",
+   "cp": "U+104C4",
+   "name": "OSAGE CAPITAL LETTER PA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
   }
  ],
  "ר": [
@@ -2134,6 +3322,69 @@
    "bidi": "L",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "𖼴",
+   "cp": "U+16F34",
+   "name": "MIAO LETTER SSA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐒇",
+   "cp": "U+10487",
+   "name": "OSMANYA LETTER RA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐑡",
+   "cp": "U+10461",
+   "name": "SHAVIAN LETTER JUDGE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𐑮",
+   "cp": "U+1046E",
+   "name": "SHAVIAN LETTER ROAR",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑁘",
+   "cp": "U+11058",
+   "name": "BRAHMI NUMBER SEVEN",
+   "bidi": "ON",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "᯿",
+   "cp": "U+1BFF",
+   "name": "BATAK SYMBOL BINDU PANGOLAT",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ን",
+   "cp": "U+1295",
+   "name": "ETHIOPIC SYLLABLE NE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
@@ -2263,6 +3514,60 @@
    "source": [
     "claude"
    ]
+  },
+  {
+   "char": "𑋇",
+   "cp": "U+112C7",
+   "name": "KHUDAWADI LETTER TTHA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ၔ",
+   "cp": "U+1054",
+   "name": "MYANMAR LETTER VOCALIC L",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𖼔",
+   "cp": "U+16F14",
+   "name": "MIAO LETTER NNA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ၿ",
+   "cp": "U+107F",
+   "name": "MYANMAR LETTER SHAN BA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ⲉ",
+   "cp": "U+2C89",
+   "name": "COPTIC SMALL LETTER EIE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ల",
+   "cp": "U+0C32",
+   "name": "TELUGU LETTER LA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
   }
  ],
  "ת": [
@@ -2372,6 +3677,60 @@
    "bidi": "L",
    "source": [
     "claude"
+   ]
+  },
+  {
+   "char": "ຄ",
+   "cp": "U+0E84",
+   "name": "LAO LETTER KHO TAM",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "𑨡",
+   "cp": "U+11A21",
+   "name": "ZANABAZAR SQUARE LETTER BHA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ꤏ",
+   "cp": "U+A90F",
+   "name": "KAYAH LI LETTER SHA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ก",
+   "cp": "U+0E01",
+   "name": "THAI CHARACTER KO KAI",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ꩫ",
+   "cp": "U+AA6B",
+   "name": "MYANMAR LETTER KHAMTI NA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᥟ",
+   "cp": "U+195F",
+   "name": "TAI LE LETTER QA",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ]
