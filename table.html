@@ -15,7 +15,7 @@
   </nav>
   <p class="muted">
     Конвертер берёт первый символ (пунктирная рамка). Клик по символу закрепляет его вместо первого (сплошная рамка, повторный клик — снять).
-    Оранжевые — предложения Claude, синие — второй раунд: ✓ принять, ✕ отклонить (больше не появится). Пока не приняты, конвертер их не использует.
+    Оранжевые — предложения Claude, синие — второй раунд, фиолетовые — третий (по рукописному ивриту; новые письменности могут не отображаться на телефоне): ✓ принять, ✕ отклонить (больше не появится). Пока не приняты, конвертер их не использует.
     Порядок = приоритет: перетаскивайте карточки или жмите ◀ ▶ (номер — в начало).
     A / i / W — проверено на Android / iOS / WhatsApp (клик: ? → ✓ → ✗).
     Правки хранятся черновиком в браузере; «Скачать JSON» — чтобы заменить mapping.json в репо.
@@ -83,7 +83,8 @@
         const box = document.createElement("div");
         const isDefault = !entry.chosen && usable(entry)[0] === cand;
         box.className = "cand" + (entry.chosen === cand.cp ? " chosen" : isDefault ? " default" : "")
-          + (cand.proposed ? " proposed" : "") + (cand.proposed && cand.source.includes("claude-2") ? " round2" : "");
+          + (cand.proposed ? " proposed" : "") + (cand.proposed && cand.source.includes("claude-2") ? " round2" : "")
+          + (cand.proposed && cand.source.includes("claude-3") ? " round3" : "");
 
         const glyph = document.createElement("div");
         glyph.className = "glyph";
