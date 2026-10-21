@@ -15,6 +15,7 @@
   </nav>
   <p class="muted">
     Клик по символу — выбрать его для буквы (повторный клик — снять).
+    Порядок = приоритет: перетаскивайте карточки или жмите ◀ ▶ (номер — в начало).
     A / i / W — проверено на Android / iOS / WhatsApp (клик: ? → ✓ → ✗).
     Правки хранятся черновиком в браузере; «Скачать JSON» — чтобы заменить mapping.json в репо.
   </p>
@@ -30,6 +31,16 @@
   const FLAG_KEYS = [["android", "A"], ["ios", "i"], ["whatsapp", "W"]];
   const FLAG_TEXT = (v) => (v === true ? "✓" : v === false ? "✗" : "?");
   let table;
+  let dragging = null;
+
+  // Candidate order is the priority: first = best.
+  function move(entry, from, to) {
+    if (to < 0 || to >= entry.candidates.length || from === to) return;
+    const [cand] = entry.candidates.splice(from, 1);
+    entry.candidates.splice(to, 0, cand);
+    save();
+    render();
+  }
 
   function parseInput(raw) {
     const s = raw.trim();
@@ -99,17 +110,45 @@
           flags.append(f);
         }
 
-        const del = document.createElement("button");
-        del.textContent = "убрать";
-        del.style.fontSize = "11px";
-        del.addEventListener("click", () => {
+        const i = entry.candidates.indexOf(cand);
+        const tools = document.createElement("div");
+        tools.className = "tools";
+        const toolButton = (text, title, onClick, disabled = false) => {
+          const b = document.createElement("button");
+          b.textContent = text;
+          b.title = title;
+          b.disabled = disabled;
+          b.addEventListener("click", onClick);
+          tools.append(b);
+        };
+        toolButton("◀", "Выше по приоритету", () => move(entry, i, i - 1), i === 0);
+        toolButton(`${i + 1}`, "В начало", () => move(entry, i, 0), i === 0);
+        toolButton("▶", "Ниже по приоритету", () => move(entry, i, i + 1), i === entry.candidates.length - 1);
+        toolButton("✕", "Убрать", () => {
           entry.candidates = entry.candidates.filter((c) => c !== cand);
           if (entry.chosen === cand.cp) entry.chosen = null;
           save();
           render();
         });
 
-        box.append(glyph, meta, flags, del);
+        // Drag a box onto another one within the same letter to reorder.
+        box.draggable = true;
+        box.addEventListener("dragstart", (e) => {
+          dragging = { entry, from: i };
+          e.dataTransfer.effectAllowed = "move";
+          box.classList.add("dragging");
+        });
+        box.addEventListener("dragend", () => { dragging = null; render(); });
+        box.addEventListener("dragover", (e) => {
+          if (dragging && dragging.entry === entry) { e.preventDefault(); box.classList.add("over"); }
+        });
+        box.addEventListener("dragleave", () => box.classList.remove("over"));
+        box.addEventListener("drop", (e) => {
+          e.preventDefault();
+          if (dragging && dragging.entry === entry) move(entry, dragging.from, i);
+        });
+
+        box.append(glyph, meta, flags, tools);
         cands.append(box);
       }
 

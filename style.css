@@ -76,5 +76,11 @@ button:hover { border-color: var(--accent); }
 .cand .meta { font-size: 11px; color: var(--muted); overflow-wrap: anywhere; }
 .cand .flags { font-size: 11px; display: flex; justify-content: center; gap: 4px; }
 .cand .flags label { cursor: pointer; }
+.cand { cursor: grab; }
+.cand.dragging { opacity: 0.4; }
+.cand.over { outline: 2px dashed var(--accent); }
+.cand .tools { display: flex; justify-content: center; gap: 2px; margin-top: 4px; }
+.cand .tools button { font-size: 11px; padding: 1px 6px; }
+.cand .tools button:disabled { opacity: 0.3; cursor: default; }
 .add { display: flex; gap: 4px; margin-top: 6px; }
 .add input { width: 120px; font: inherit; padding: 4px; }
