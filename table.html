@@ -15,6 +15,7 @@
   </nav>
   <p class="muted">
     Конвертер берёт первый символ (пунктирная рамка). Клик по символу закрепляет его вместо первого (сплошная рамка, повторный клик — снять).
+    Оранжевые — предложения Claude: ✓ принять, ✕ отклонить (больше не появится). Пока не приняты, конвертер их не использует.
     Порядок = приоритет: перетаскивайте карточки или жмите ◀ ▶ (номер — в начало).
     A / i / W — проверено на Android / iOS / WhatsApp (клик: ? → ✓ → ✗).
     Правки хранятся черновиком в браузере; «Скачать JSON» — чтобы заменить mapping.json в репо.
@@ -80,8 +81,9 @@
       cands.className = "cands";
       for (const cand of entry.candidates) {
         const box = document.createElement("div");
-        const isDefault = !entry.chosen && entry.candidates[0] === cand;
-        box.className = "cand" + (entry.chosen === cand.cp ? " chosen" : isDefault ? " default" : "");
+        const isDefault = !entry.chosen && usable(entry)[0] === cand;
+        box.className = "cand" + (entry.chosen === cand.cp ? " chosen" : isDefault ? " default" : "")
+          + (cand.proposed ? " proposed" : "");
 
         const glyph = document.createElement("div");
         glyph.className = "glyph";
@@ -125,9 +127,14 @@
         toolButton("◀", "Выше по приоритету", () => move(entry, i, i - 1), i === 0);
         toolButton(`${i + 1}`, "В начало", () => move(entry, i, 0), i === 0);
         toolButton("▶", "Ниже по приоритету", () => move(entry, i, i + 1), i === entry.candidates.length - 1);
+        if (cand.proposed) {
+          toolButton("✓", "Принять предложение", () => { delete cand.proposed; save(); render(); });
+        }
         toolButton("✕", "Убрать", () => {
           entry.candidates = entry.candidates.filter((c) => c !== cand);
           if (entry.chosen === cand.cp) entry.chosen = null;
+          // Remember rejections so the same proposal doesn't come back on the next load.
+          if (cand.source.includes("claude")) entry.rejected = [...(entry.rejected || []), cand.cp];
           save();
           render();
         });
@@ -198,7 +205,11 @@
   (async () => {
     const loaded = await loadTable();
     table = loaded.table;
-    if (loaded.fromDraft) document.getElementById("status").textContent = "открыт черновик";
+    const added = await mergeProposals(table);
+    if (added) save();
+    const proposed = Object.values(table).flatMap((e) => e.candidates).filter((c) => c.proposed).length;
+    document.getElementById("status").textContent =
+      (loaded.fromDraft ? "открыт черновик" : "") + (proposed ? ` · предложений на проверку: ${proposed}` : "");
     render();
   })();
 </script>
