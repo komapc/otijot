@@ -85,6 +85,19 @@
     "whatsapp": null
    },
    {
+    "char": "ꤏ",
+    "cp": "U+A90F",
+    "name": "KAYAH LI LETTER SHA",
+    "bidi": "L",
+    "source": [
+     "claude-2"
+    ],
+    "proposed": true,
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
     "char": "᠗",
     "cp": "U+1817",
     "name": "MONGOLIAN DIGIT SEVEN",
@@ -104,32 +117,6 @@
     "source": [
      "kobi-site"
     ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "ᨡ",
-    "cp": "U+1A21",
-    "name": "TAI THAM LETTER HIGH KHA",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𞣎",
-    "cp": "U+1E8CE",
-    "name": "MENDE KIKAKUI DIGIT EIGHT",
-    "bidi": "R",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
     "android": null,
     "ios": null,
     "whatsapp": null
@@ -153,7 +140,9 @@
    "U+1E808",
    "U+1611",
    "U+1612",
-   "U+1001"
+   "U+1001",
+   "U+1A21",
+   "U+1E8CE"
   ]
  },
  "ג": {
@@ -293,6 +282,19 @@
  "ד": {
   "chosen": null,
   "candidates": [
+   {
+    "char": "ᨡ",
+    "cp": "U+1A21",
+    "name": "TAI THAM LETTER HIGH KHA",
+    "bidi": "L",
+    "source": [
+     "claude-2"
+    ],
+    "proposed": true,
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
    {
     "char": "𐩅",
     "cp": "U+10A45",
@@ -2225,19 +2227,6 @@
     "android": null,
     "ios": null,
     "whatsapp": null
-   },
-   {
-    "char": "᮷",
-    "cp": "U+1BB7",
-    "name": "SUNDANESE DIGIT SEVEN",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
    }
   ],
   "rejected": [
@@ -2259,7 +2248,8 @@
    "U+A93D",
    "U+A93C",
    "U+109C7",
-   "U+109A6"
+   "U+109A6",
+   "U+1BB7"
   ]
  },
  "ם": {
@@ -2315,19 +2305,6 @@
     "android": null,
     "ios": null,
     "whatsapp": null
-   },
-   {
-    "char": "᭧",
-    "cp": "U+1B67",
-    "name": "BALINESE MUSICAL SYMBOL DAENG",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
    }
   ],
   "rejected": [
@@ -2338,7 +2315,8 @@
    "U+0784",
    "U+1C08",
    "U+10365",
-   "U+1E2C3"
+   "U+1E2C3",
+   "U+1B67"
   ]
  },
  "נ": {
@@ -3618,6 +3596,19 @@
     "whatsapp": null
    },
    {
+    "char": "ᘒ",
+    "cp": "U+1612",
+    "name": "CANADIAN SYLLABICS CARRIER YI",
+    "bidi": "L",
+    "source": [
+     "claude-2"
+    ],
+    "proposed": true,
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
     "char": "𞠉",
     "cp": "U+1E809",
     "name": "MENDE KIKAKUI SYLLABLE M005 WA",
@@ -3625,6 +3616,19 @@
     "source": [
      "kobi-sheet"
     ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𞣎",
+    "cp": "U+1E8CE",
+    "name": "MENDE KIKAKUI DIGIT EIGHT",
+    "bidi": "R",
+    "source": [
+     "claude-2"
+    ],
+    "proposed": true,
     "android": null,
     "ios": null,
     "whatsapp": null
@@ -3692,64 +3696,12 @@
     "whatsapp": null
    },
    {
-    "char": "𖫝",
-    "cp": "U+16ADD",
-    "name": "BASSA VAH LETTER GBU",
-    "bidi": "L",
-    "source": [
-     "claude"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "ၶ",
     "cp": "U+1076",
     "name": "MYANMAR LETTER SHAN KHA",
     "bidi": "L",
     "source": [
      "claude"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "ꧠ",
-    "cp": "U+A9E0",
-    "name": "MYANMAR LETTER SHAN GHA",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐐂",
-    "cp": "U+10402",
-    "name": "DESERET CAPITAL LETTER LONG A",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𛱝",
-    "cp": "U+1BC5D",
-    "name": "DUPLOYAN LETTER WO",
-    "bidi": "L",
-    "source": [
-     "claude-2"
     ],
     "proposed": true,
     "android": null,
@@ -3807,19 +3759,6 @@
     "android": null,
     "ios": null,
     "whatsapp": null
-   },
-   {
-    "char": "ᘒ",
-    "cp": "U+1612",
-    "name": "CANADIAN SYLLABICS CARRIER YI",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
    }
   ],
   "rejected": [
@@ -3835,7 +3774,11 @@
    "U+0EA7",
    "U+11105",
    "U+1988",
-   "U+1013"
+   "U+1013",
+   "U+1BC5D",
+   "U+10402",
+   "U+A9E0",
+   "U+16ADD"
   ]
  },
  "ף": {
@@ -3902,58 +3845,6 @@
     "android": null,
     "ios": null,
     "whatsapp": null
-   },
-   {
-    "char": "൧",
-    "cp": "U+0D67",
-    "name": "MALAYALAM DIGIT ONE",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𖠯",
-    "cp": "U+1682F",
-    "name": "BAMUM LETTER PHASE-A LUAEP",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𝆑",
-    "cp": "U+1D191",
-    "name": "MUSICAL SYMBOL FORTE",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𞋓",
-    "cp": "U+1E2D3",
-    "name": "WANCHO LETTER VA",
-    "bidi": "L",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
    }
   ],
   "rejected": [
@@ -3965,7 +3856,11 @@
    "U+10D1B",
    "U+10E65",
    "U+1036C",
-   "U+16A0D"
+   "U+16A0D",
+   "U+1D191",
+   "U+0D67",
+   "U+1682F",
+   "U+1E2D3"
   ]
  },
  "צ": {
@@ -4292,19 +4187,6 @@
     "whatsapp": null
    },
    {
-    "char": "𑽔",
-    "cp": "U+11F54",
-    "name": "KAWI DIGIT FOUR",
-    "bidi": "L",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "౩",
     "cp": "U+0C69",
     "name": "TELUGU DIGIT THREE",
@@ -4324,12 +4206,26 @@
    "U+1DBE",
    "U+01B7",
    "U+1E4D0",
-   "U+10B24"
+   "U+10B24",
+   "U+11F54"
   ]
  },
  "ץ": {
   "chosen": null,
   "candidates": [
+   {
+    "char": "𞋓",
+    "cp": "U+1E2D3",
+    "name": "WANCHO LETTER VA",
+    "bidi": "L",
+    "source": [
+     "claude-3"
+    ],
+    "proposed": true,
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
    {
     "char": "𐐐",
     "cp": "U+10410",
@@ -4359,18 +4255,6 @@
     "char": "𐔋",
     "cp": "U+1050B",
     "name": "ELBASAN LETTER GJE",
-    "bidi": "L",
-    "source": [
-     "kobi-sheet"
-    ],
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "φ",
-    "cp": "U+03C6",
-    "name": "GREEK SMALL LETTER PHI",
     "bidi": "L",
     "source": [
      "kobi-sheet"
@@ -4635,45 +4519,6 @@
     "whatsapp": null
    },
    {
-    "char": "𖼴",
-    "cp": "U+16F34",
-    "name": "MIAO LETTER SSA",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐒇",
-    "cp": "U+10487",
-    "name": "OSMANYA LETTER RA",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐑮",
-    "cp": "U+1046E",
-    "name": "SHAVIAN LETTER ROAR",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "𑁘",
     "cp": "U+11058",
     "name": "BRAHMI NUMBER SEVEN",
@@ -4687,62 +4532,10 @@
     "whatsapp": null
    },
    {
-    "char": "᯿",
-    "cp": "U+1BFF",
-    "name": "BATAK SYMBOL BINDU PANGOLAT",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𖼄",
-    "cp": "U+16F04",
-    "name": "MIAO LETTER MA",
-    "bidi": "L",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "႒",
     "cp": "U+1092",
     "name": "MYANMAR SHAN DIGIT TWO",
     "bidi": "L",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "ᲄ",
-    "cp": "U+1C84",
-    "name": "CYRILLIC SMALL LETTER TALL TE",
-    "bidi": "L",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐨦",
-    "cp": "U+10A26",
-    "name": "KHAROSHTHI LETTER BA",
-    "bidi": "R",
     "source": [
      "claude-3"
     ],
@@ -4777,12 +4570,44 @@
    "U+10423",
    "U+1295",
    "U+2E52",
-   "U+10461"
+   "U+10461",
+   "U+10487",
+   "U+1046E",
+   "U+16F34",
+   "U+10A26",
+   "U+1C84",
+   "U+16F04",
+   "U+1BFF"
   ]
  },
  "ש": {
   "chosen": null,
   "candidates": [
+   {
+    "char": "𐬞",
+    "cp": "U+10B1E",
+    "name": "AVESTAN LETTER PE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐹲",
+    "cp": "U+10E72",
+    "name": "RUMI NUMBER ONE HUNDRED",
+    "bidi": "AN",
+    "source": [
+     "claude-3"
+    ],
+    "proposed": true,
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
    {
     "char": "ꫀ",
     "cp": "U+AAC0",
@@ -4830,18 +4655,6 @@
      "claude"
     ],
     "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐬞",
-    "cp": "U+10B1E",
-    "name": "AVESTAN LETTER PE",
-    "bidi": "R",
-    "source": [
-     "kobi-sheet"
-    ],
     "android": null,
     "ios": null,
     "whatsapp": null
@@ -4951,51 +4764,12 @@
     "whatsapp": null
    },
    {
-    "char": "ⲉ",
-    "cp": "U+2C89",
-    "name": "COPTIC SMALL LETTER EIE",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "ల",
     "cp": "U+0C32",
     "name": "TELUGU LETTER LA",
     "bidi": "L",
     "source": [
      "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐹲",
-    "cp": "U+10E72",
-    "name": "RUMI NUMBER ONE HUNDRED",
-    "bidi": "AN",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "ޱ",
-    "cp": "U+07B1",
-    "name": "THAANA LETTER NAA",
-    "bidi": "AL",
-    "source": [
-     "claude-3"
     ],
     "proposed": true,
     "android": null,
@@ -5016,7 +4790,10 @@
    "U+11F2A",
    "U+156B",
    "U+0E22",
-   "U+1E4D4"
+   "U+1E4D4",
+   "U+07B1",
+   "U+A90F",
+   "U+2C89"
   ]
  },
  "ת": {
@@ -5035,19 +4812,6 @@
     "whatsapp": null
    },
    {
-    "char": "ꤏ",
-    "cp": "U+A90F",
-    "name": "KAYAH LI LETTER SHA",
-    "bidi": "L",
-    "source": [
-     "claude-2"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "ᥟ",
     "cp": "U+195F",
     "name": "TAI LE LETTER QA",
@@ -5061,62 +4825,10 @@
     "whatsapp": null
    },
    {
-    "char": "ⲡ",
-    "cp": "U+2CA1",
-    "name": "COPTIC SMALL LETTER PI",
-    "bidi": "L",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𐍀",
-    "cp": "U+10340",
-    "name": "GOTHIC LETTER PAIRTHRA",
-    "bidi": "L",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𞀽",
-    "cp": "U+1E03D",
-    "name": "MODIFIER LETTER CYRILLIC SMALL PE",
-    "bidi": "L",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
     "char": "⺆",
     "cp": "U+2E86",
     "name": "CJK RADICAL BOX",
     "bidi": "ON",
-    "source": [
-     "claude-3"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
-   },
-   {
-    "char": "𑼔",
-    "cp": "U+11F14",
-    "name": "KAWI LETTER GA",
-    "bidi": "L",
     "source": [
      "claude-3"
     ],
@@ -5146,7 +4858,13 @@
    "U+104BA",
    "U+158C",
    "U+0E94",
-   "U+0E01"
+   "U+0E01",
+   "U+2CA1",
+   "U+10340",
+   "U+1E03D",
+   "U+A90F",
+   "U+11F14"
   ]
  }
 }
+
