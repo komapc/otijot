@@ -14,8 +14,9 @@
     <span class="muted" id="status"></span>
   </nav>
 
-  <!-- "Hebrew handwriting": letters keep flipping into random lookalikes (see hero() below). -->
-  <p class="hero" id="hero" dir="rtl" aria-label="עברית כתב יד">עברית כתב יד</p>
+  <!-- "Hebrew handwriting": letters keep flipping between random lookalikes (see hero() below);
+       the static text is only the no-JS fallback. -->
+  <p class="hero" id="hero" dir="rtl" aria-label="עברית כתב יד">‏𐺧ລ𐨬ᑊກ 𐴊ກລ ᑊ𐩅‏</p>
 
   <textarea id="input" dir="rtl" placeholder="כתבו כאן…"></textarea>
   <div class="row">
@@ -36,13 +37,16 @@
   // that keeps mirrored glyphs unflipped, while the rtl container still orders the boxes right to left.
   function hero(table) {
     const el = document.getElementById("hero");
+    el.textContent = el.getAttribute("aria-label");
+    // Only lookalike glyphs, never the printed Hebrew letter itself.
     const slots = [...el.textContent].map((ch) => {
+      const pool = usable(table[ch]).map((c) => c.char);
       const span = document.createElement("span");
-      span.textContent = ch;
+      span.textContent = pool.length ? pool[Math.floor(Math.random() * pool.length)] : ch;
       span.dir = "ltr";
       span.setAttribute("aria-hidden", "true");
       if (ch === " ") span.className = "space";
-      return { ch, span, pool: [ch, ...usable(table[ch]).map((c) => c.char)] };
+      return { ch, span, pool };
     });
     el.replaceChildren(...slots.map((s) => s.span));
     if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
