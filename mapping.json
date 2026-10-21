@@ -2946,19 +2946,6 @@
     "android": null,
     "ios": null,
     "whatsapp": null
-   },
-   {
-    "char": "𑅬",
-    "cp": "U+1116C",
-    "name": "MAHAJANI LETTER MA",
-    "bidi": "L",
-    "source": [
-     "claude"
-    ],
-    "proposed": true,
-    "android": null,
-    "ios": null,
-    "whatsapp": null
    }
   ],
   "rejected": [
@@ -2973,7 +2960,8 @@
    "U+0E95",
    "U+AAA6",
    "U+1168F",
-   "U+0E16"
+   "U+0E16",
+   "U+1116C"
   ]
  }
 }
