@@ -1,8 +1,11 @@
 // Shared by index.html and table.html: load the table, transform text.
 
 const DRAFT_KEY = "otijot.draft";
-const RLO = "‮";
-const PDF = "‬";
+const RLM = "\u200F";
+const RLO = "\u202E";
+const LRO = "\u202D";
+const PDF = "\u202C";
+const ZWNJ = "\u200C";
 
 function readDraft() {
   try {
@@ -95,19 +98,27 @@ async function mergeProposals(table) {
 
 // Glyphs that are not already right-to-left get wrapped in RLO…PDF one by one,
 // so digits and Latin around them keep their normal direction.
+// Mirrored neutrals (∫ ⌋ …) would flip at an odd level, so they get LRO instead, fenced by RLM
+// so the spaces next to them still resolve to RTL.
+// Arabic-type glyphs (Hanifi Rohingya etc.) would join their neighbours; ZWNJ keeps them apart.
 function glyphFor(cand) {
-  const rtl = cand.bidi === "R" || cand.bidi === "AL";
-  return rtl ? cand.char : RLO + cand.char + PDF;
+  if (cand.bidi === "R") return cand.char;
+  if (cand.bidi === "AL") return cand.char + ZWNJ;
+  if (/\p{Bidi_Mirrored}/u.test(cand.char)) return RLM + LRO + cand.char + PDF + RLM;
+  return RLO + cand.char + PDF;
 }
 
 // seed === null → priority mode; a number → random mode.
 function transform(text, table, seed = null) {
-  let out = "";
+  if (!text) return "";
+  // RLM at both ends of every line: apps pick the paragraph direction from the first strong
+  // character (an LTR glyph would make the line LTR), and trailing punctuation would drift right.
+  let out = RLM;
   let pos = 0;
   for (const ch of text) {
     const cand = seed === null ? chosenCandidate(table[ch]) : randomCandidate(table[ch], seed, pos);
-    out += cand ? glyphFor(cand) : ch;
+    out += ch === "\n" ? RLM + "\n" + RLM : cand ? glyphFor(cand) : ch;
     pos++;
   }
-  return out;
+  return out + RLM;
 }
