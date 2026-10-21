@@ -136,6 +136,7 @@
         box.addEventListener("dragstart", (e) => {
           dragging = { entry, from: i };
           e.dataTransfer.effectAllowed = "move";
+          e.dataTransfer.setData("text/plain", cand.cp); // Firefox won't start a drag without data
           box.classList.add("dragging");
         });
         box.addEventListener("dragend", () => { dragging = null; render(); });
