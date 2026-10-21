@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Otijot Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <nav>
+    <h1>Таблица букв</h1>
+    <a href="index.html">Конвертер</a>
+    <span class="muted" id="status"></span>
+  </nav>
+  <p class="muted">
+    Клик по символу — выбрать его для буквы (повторный клик — снять).
+    A / i / W — проверено на Android / iOS / WhatsApp (клик: ? → ✓ → ✗).
+    Правки хранятся черновиком в браузере; «Скачать JSON» — чтобы заменить mapping.json в репо.
+  </p>
+  <div class="row">
+    <button id="download">Скачать JSON</button>
+    <button id="copyJson">Копировать JSON</button>
+    <button id="reset">Сбросить черновик</button>
+  </div>
+  <div id="letters"></div>
+</main>
+<script src="common.js"></script>
+<script>
+  const FLAG_KEYS = [["android", "A"], ["ios", "i"], ["whatsapp", "W"]];
+  const FLAG_TEXT = (v) => (v === true ? "✓" : v === false ? "✗" : "?");
+  let table;
+
+  function parseInput(raw) {
+    const s = raw.trim();
+    const m = s.match(/^(?:U\+|0x)?([0-9a-f]{4,6})$/i);
+    if (m) return String.fromCodePoint(parseInt(m[1], 16));
+    const chars = [...s.replace(/[‎‏‪-‮⁦-⁩]/g, "")];
+    return chars.length === 1 ? chars[0] : null;
+  }
+
+  function newCandidate(ch) {
+    const cp = "U+" + ch.codePointAt(0).toString(16).toUpperCase().padStart(4, "0");
+    // The browser can't tell the Unicode name or bidi class; guess bidi from the RTL script ranges.
+    const rtl = /[֐-ࣿיִ-﷿ﹰ-﻿]|[\u{10800}-\u{10FFF}]|[\u{1E800}-\u{1EFFF}]/u.test(ch);
+    return { char: ch, cp, name: "", bidi: rtl ? "R" : "L", source: ["manual"],
+             android: null, ios: null, whatsapp: null };
+  }
+
+  function save() {
+    writeDraft(table);
+    const chosen = Object.values(table).filter((e) => e.chosen).length;
+    document.getElementById("status").textContent = `${chosen}/${Object.keys(table).length} выбрано · черновик сохранён`;
+  }
+
+  function render() {
+    const root = document.getElementById("letters");
+    root.textContent = "";
+    for (const [letter, entry] of Object.entries(table)) {
+      const row = document.createElement("div");
+      row.className = "letter";
+
+      const heb = document.createElement("div");
+      heb.className = "heb";
+      heb.textContent = letter;
+      row.append(heb);
+
+      const cands = document.createElement("div");
+      cands.className = "cands";
+      for (const cand of entry.candidates) {
+        const box = document.createElement("div");
+        box.className = "cand" + (entry.chosen === cand.cp ? " chosen" : "");
+
+        const glyph = document.createElement("div");
+        glyph.className = "glyph";
+        glyph.textContent = cand.char;
+        glyph.title = "Выбрать";
+        glyph.addEventListener("click", () => {
+          entry.chosen = entry.chosen === cand.cp ? null : cand.cp;
+          save();
+          render();
+        });
+
+        const meta = document.createElement("div");
+        meta.className = "meta";
+        meta.textContent = `${cand.cp} · ${cand.bidi}\n${cand.name}\n${cand.source.join(", ")}`;
+        meta.style.whiteSpace = "pre-line";
+
+        const flags = document.createElement("div");
+        flags.className = "flags";
+        for (const [key, label] of FLAG_KEYS) {
+          const f = document.createElement("label");
+          f.textContent = `${label}${FLAG_TEXT(cand[key])}`;
+          f.addEventListener("click", () => {
+            cand[key] = cand[key] === null ? true : cand[key] === true ? false : null;
+            save();
+            render();
+          });
+          flags.append(f);
+        }
+
+        const del = document.createElement("button");
+        del.textContent = "убрать";
+        del.style.fontSize = "11px";
+        del.addEventListener("click", () => {
+          entry.candidates = entry.candidates.filter((c) => c !== cand);
+          if (entry.chosen === cand.cp) entry.chosen = null;
+          save();
+          render();
+        });
+
+        box.append(glyph, meta, flags, del);
+        cands.append(box);
+      }
+
+      const add = document.createElement("div");
+      add.className = "add";
+      const input = document.createElement("input");
+      input.placeholder = "символ или U+XXXX";
+      const btn = document.createElement("button");
+      btn.textContent = "+";
+      const doAdd = () => {
+        const ch = parseInput(input.value);
+        if (!ch) { input.style.outline = "2px solid #c44"; return; }
+        const cand = newCandidate(ch);
+        if (!entry.candidates.some((c) => c.cp === cand.cp)) entry.candidates.push(cand);
+        save();
+        render();
+      };
+      btn.addEventListener("click", doAdd);
+      input.addEventListener("keydown", (e) => { if (e.key === "Enter") doAdd(); });
+      add.append(input, btn);
+
+      const right = document.createElement("div");
+      right.append(cands, add);
+      row.append(right);
+      root.append(row);
+    }
+  }
+
+  const json = () => JSON.stringify(table, null, 1) + "\n";
+
+  document.getElementById("download").addEventListener("click", () => {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([json()], { type: "application/json" }));
+    a.download = "mapping.json";
+    a.click();
+  });
+  document.getElementById("copyJson").addEventListener("click", () => navigator.clipboard.writeText(json()));
+  document.getElementById("reset").addEventListener("click", async () => {
+    clearDraft();
+    table = (await loadTable()).table;
+    render();
+    document.getElementById("status").textContent = "черновик сброшен";
+  });
+
+  (async () => {
+    const loaded = await loadTable();
+    table = loaded.table;
+    if (loaded.fromDraft) document.getElementById("status").textContent = "открыт черновик";
+    render();
+  })();
+</script>
+</body>
+</html>

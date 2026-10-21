@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="he">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Otijot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <nav>
+    <h1>Otijot</h1>
+    <a href="table.html">Таблица букв</a>
+    <span class="muted" id="status"></span>
+  </nav>
+
+  <textarea id="input" dir="rtl" placeholder="כתבו כאן…"></textarea>
+  <div class="row">
+    <button id="copy">Копировать</button>
+    <span class="muted" id="copied"></span>
+  </div>
+  <div class="output" id="output" dir="rtl"></div>
+  <p class="muted">Буквы без выбранного символа остаются как есть.</p>
+</main>
+<script src="common.js"></script>
+<script>
+  (async () => {
+    const { table, fromDraft } = await loadTable();
+    const chosen = Object.values(table).filter((e) => e.chosen).length;
+    document.getElementById("status").textContent =
+      `${chosen}/${Object.keys(table).length} букв выбрано` + (fromDraft ? " (черновик)" : "");
+
+    const input = document.getElementById("input");
+    const output = document.getElementById("output");
+    const render = () => { output.textContent = transform(input.value, table); };
+    input.addEventListener("input", render);
+    render();
+
+    document.getElementById("copy").addEventListener("click", async () => {
+      await navigator.clipboard.writeText(output.textContent);
+      document.getElementById("copied").textContent = "Скопировано";
+      setTimeout(() => { document.getElementById("copied").textContent = ""; }, 1500);
+    });
+  })();
+</script>
+</body>
+</html>

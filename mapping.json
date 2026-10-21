@@ -1,0 +1,1943 @@
+{
+ "א": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐨲",
+    "cp": "U+10A32",
+    "name": "KHAROSHTHI LETTER KKA",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐡞",
+    "cp": "U+1085E",
+    "name": "IMPERIAL ARAMAIC NUMBER ONE THOUSAND",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐫝",
+    "cp": "U+10ADD",
+    "name": "MANICHAEAN LETTER SADHE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐢀",
+    "cp": "U+10880",
+    "name": "NABATAEAN LETTER FINAL ALEPH",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ꗪ",
+    "cp": "U+A5EA",
+    "name": "VAI SYLLABLE BE",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet",
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐔘",
+    "cp": "U+10518",
+    "name": "ELBASAN LETTER QE",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐔧",
+    "cp": "U+10527",
+    "name": "ELBASAN LETTER KHE",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "メ",
+    "cp": "U+30E1",
+    "name": "KATAKANA LETTER ME",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ⵋ",
+    "cp": "U+2D4B",
+    "name": "TIFINAGH LETTER AHAGGAR YAZH",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ϰ",
+    "cp": "U+03F0",
+    "name": "GREEK KAPPA SYMBOL",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ב": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐨱",
+    "cp": "U+10A31",
+    "name": "KHAROSHTHI LETTER HA",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐰘",
+    "cp": "U+10C18",
+    "name": "OLD TURKIC LETTER ORKHON AEY",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "߶",
+    "cp": "U+07F6",
+    "name": "NKO SYMBOL OO DENNEN",
+    "bidi": "ON",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "᠗",
+    "cp": "U+1817",
+    "name": "MONGOLIAN DIGIT SEVEN",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "᧓",
+    "cp": "U+19D3",
+    "name": "NEW TAI LUE DIGIT THREE",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐴐",
+    "cp": "U+10D10",
+    "name": "HANIFI ROHINGYA LETTER SHA",
+    "bidi": "AL",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ລ",
+    "cp": "U+0EA5",
+    "name": "LAO LETTER LO LOOT",
+    "bidi": "L",
+    "source": [
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ג": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "ᩱ",
+    "cp": "U+1A71",
+    "name": "TAI THAM VOWEL SIGN AI",
+    "bidi": "L",
+    "source": [
+     "kobi-site",
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐢌",
+    "cp": "U+1088C",
+    "name": "NABATAEAN LETTER FINAL YODH",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐭭",
+    "cp": "U+10B6D",
+    "name": "INSCRIPTIONAL PAHLAVI LETTER NUN",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𞤎",
+    "cp": "U+1E90E",
+    "name": "ADLAM CAPITAL LETTER YHE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𞥔",
+    "cp": "U+1E954",
+    "name": "ADLAM DIGIT FOUR",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ᕍ",
+    "cp": "U+154D",
+    "name": "CANADIAN SYLLABICS WEST-CREE LA",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "᧑",
+    "cp": "U+19D1",
+    "name": "NEW TAI LUE DIGIT ONE",
+    "bidi": "L",
+    "source": [
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ד": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐩅",
+    "cp": "U+10A45",
+    "name": "KHAROSHTHI NUMBER TWENTY",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐡜",
+    "cp": "U+1085C",
+    "name": "IMPERIAL ARAMAIC NUMBER TWENTY",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐤮",
+    "cp": "U+1092E",
+    "name": "LYDIAN LETTER SS",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "༢",
+    "cp": "U+0F22",
+    "name": "TIBETAN DIGIT TWO",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ה": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "ᯄ",
+    "cp": "U+1BC4",
+    "name": "BATAK LETTER MANDAILING HA",
+    "bidi": "L",
+    "source": [
+     "kobi-site",
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "⳻",
+    "cp": "U+2CFB",
+    "name": "COPTIC OLD NUBIAN INDIRECT QUESTION MARK",
+    "bidi": "ON",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𛰷",
+    "cp": "U+1BC37",
+    "name": "DUPLOYAN LETTER T R S",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ᘆ",
+    "cp": "U+1606",
+    "name": "CANADIAN SYLLABICS CARRIER NI",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ᓶ",
+    "cp": "U+14F6",
+    "name": "CANADIAN SYLLABICS SWE",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "⸅",
+    "cp": "U+2E05",
+    "name": "RIGHT DOTTED SUBSTITUTION BRACKET",
+    "bidi": "ON",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "◝",
+    "cp": "U+25DD",
+    "name": "UPPER RIGHT QUADRANT CIRCULAR ARC",
+    "bidi": "ON",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ו": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐡘",
+    "cp": "U+10858",
+    "name": "IMPERIAL ARAMAIC NUMBER ONE",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐬥",
+    "cp": "U+10B25",
+    "name": "AVESTAN LETTER NE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐔎",
+    "cp": "U+1050E",
+    "name": "ELBASAN LETTER JE",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐴱",
+    "cp": "U+10D31",
+    "name": "HANIFI ROHINGYA DIGIT ONE",
+    "bidi": "AN",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "˛",
+    "cp": "U+02DB",
+    "name": "OGONEK",
+    "bidi": "ON",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ז": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐴈",
+    "cp": "U+10D08",
+    "name": "HANIFI ROHINGYA LETTER KHA",
+    "bidi": "AL",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐨡",
+    "cp": "U+10A21",
+    "name": "KHAROSHTHI LETTER DA",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ࡏ",
+    "cp": "U+084F",
+    "name": "MANDAIC LETTER IN",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐰉",
+    "cp": "U+10C09",
+    "name": "OLD TURKIC LETTER ORKHON AB",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐭦",
+    "cp": "U+10B66",
+    "name": "INSCRIPTIONAL PAHLAVI LETTER ZAYIN",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐼷",
+    "cp": "U+10F37",
+    "name": "SOGDIAN LETTER YODH",
+    "bidi": "AL",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐔣",
+    "cp": "U+10523",
+    "name": "ELBASAN LETTER ZE",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐒑",
+    "cp": "U+10491",
+    "name": "OSMANYA LETTER MIIN",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ʖ",
+    "cp": "U+0296",
+    "name": "LATIN LETTER INVERTED GLOTTAL STOP",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ח": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐪃",
+    "cp": "U+10A83",
+    "name": "OLD NORTH ARABIAN LETTER MEEM",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐨤",
+    "cp": "U+10A24",
+    "name": "KHAROSHTHI LETTER PA",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐪐",
+    "cp": "U+10A90",
+    "name": "OLD NORTH ARABIAN LETTER FEH",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ט": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "Ⳓ",
+    "cp": "U+2CD2",
+    "name": "COPTIC CAPITAL LETTER OLD COPTIC HEI",
+    "bidi": "L",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ࠋ",
+    "cp": "U+080B",
+    "name": "SAMARITAN LETTER LABAT",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ꪉ",
+    "cp": "U+AA89",
+    "name": "TAI VIET LETTER HIGH NGO",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "Ỽ",
+    "cp": "U+1EFC",
+    "name": "LATIN CAPITAL LETTER MIDDLE-WELSH V",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "८",
+    "cp": "U+096E",
+    "name": "DEVANAGARI DIGIT EIGHT",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ს",
+    "cp": "U+10E1",
+    "name": "GEORGIAN LETTER SAN",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐒗",
+    "cp": "U+10497",
+    "name": "OSMANYA LETTER E",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "໒",
+    "cp": "U+0ED2",
+    "name": "LAO DIGIT TWO",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet",
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "י": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "ᑊ",
+    "cp": "U+144A",
+    "name": "CANADIAN SYLLABICS WEST-CREE P",
+    "bidi": "L",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ʹ",
+    "cp": "U+02B9",
+    "name": "MODIFIER LETTER PRIME",
+    "bidi": "ON",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "כ": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐴊",
+    "cp": "U+10D0A",
+    "name": "HANIFI ROHINGYA LETTER DA",
+    "bidi": "AL",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐬎",
+    "cp": "U+10B0E",
+    "name": "AVESTAN LETTER U",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐤢",
+    "cp": "U+10922",
+    "name": "LYDIAN LETTER G",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐫬",
+    "cp": "U+10AEC",
+    "name": "MANICHAEAN NUMBER FIVE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐳙",
+    "cp": "U+10CD9",
+    "name": "OLD HUNGARIAN SMALL LETTER EN",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐲙",
+    "cp": "U+10C99",
+    "name": "OLD HUNGARIAN CAPITAL LETTER EN",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐰣",
+    "cp": "U+10C23",
+    "name": "OLD TURKIC LETTER ORKHON AN",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐰆",
+    "cp": "U+10C06",
+    "name": "OLD TURKIC LETTER ORKHON O",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ࠐ",
+    "cp": "U+0810",
+    "name": "SAMARITAN LETTER FI",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ා",
+    "cp": "U+0DCF",
+    "name": "SINHALA VOWEL SIGN AELA-PILLA",
+    "bidi": "L",
+    "source": [
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ך": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "ๅ",
+    "cp": "U+0E45",
+    "name": "THAI CHARACTER LAKKHANGYAO",
+    "bidi": "L",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ʔ",
+    "cp": "U+0294",
+    "name": "LATIN LETTER GLOTTAL STOP",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ᕈ",
+    "cp": "U+1548",
+    "name": "CANADIAN SYLLABICS RO",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "Ɂ",
+    "cp": "U+0241",
+    "name": "LATIN CAPITAL LETTER GLOTTAL STOP",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ל": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "ʆ",
+    "cp": "U+0286",
+    "name": "LATIN SMALL LETTER ESH WITH CURL",
+    "bidi": "L",
+    "source": [
+     "kobi-site",
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "⟆",
+    "cp": "U+27C6",
+    "name": "RIGHT S-SHAPED BAG DELIMITER",
+    "bidi": "ON",
+    "source": [
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "מ": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐫍",
+    "cp": "U+10ACD",
+    "name": "MANICHAEAN LETTER HETH",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐬔",
+    "cp": "U+10B14",
+    "name": "AVESTAN LETTER GE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐰇",
+    "cp": "U+10C07",
+    "name": "OLD TURKIC LETTER ORKHON OE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ꤾ",
+    "cp": "U+A93E",
+    "name": "REJANG LETTER LA",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ם": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐬙",
+    "cp": "U+10B19",
+    "name": "AVESTAN LETTER TE",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐫯",
+    "cp": "U+10AEF",
+    "name": "MANICHAEAN NUMBER ONE HUNDRED",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "נ": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐢃",
+    "cp": "U+10883",
+    "name": "NABATAEAN LETTER BETH",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐬌",
+    "cp": "U+10B0C",
+    "name": "AVESTAN LETTER I",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐫔",
+    "cp": "U+10AD4",
+    "name": "MANICHAEAN LETTER DHAMEDH",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐢕",
+    "cp": "U+10895",
+    "name": "NABATAEAN LETTER NUN",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐢑",
+    "cp": "U+10891",
+    "name": "NABATAEAN LETTER LAMEDH",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐭡",
+    "cp": "U+10B61",
+    "name": "INSCRIPTIONAL PAHLAVI LETTER BETH",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐭢",
+    "cp": "U+10B62",
+    "name": "INSCRIPTIONAL PAHLAVI LETTER GIMEL",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐼹",
+    "cp": "U+10F39",
+    "name": "SOGDIAN LETTER LAMEDH",
+    "bidi": "AL",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐺠",
+    "cp": "U+10EA0",
+    "name": "YEZIDI LETTER LAM",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ן": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "|",
+    "cp": "U+007C",
+    "name": "VERTICAL LINE",
+    "bidi": "ON",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐬦",
+    "cp": "U+10B26",
+    "name": "AVESTAN LETTER NYE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐬰",
+    "cp": "U+10B30",
+    "name": "AVESTAN LETTER ZE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐭸",
+    "cp": "U+10B78",
+    "name": "INSCRIPTIONAL PAHLAVI NUMBER ONE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ס": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐤬",
+    "cp": "U+1092C",
+    "name": "LYDIAN LETTER O",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𞠧",
+    "cp": "U+1E827",
+    "name": "MENDE KIKAKUI SYLLABLE M165 OO",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐺦",
+    "cp": "U+10EA6",
+    "name": "YEZIDI LETTER EW",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐔖",
+    "cp": "U+10516",
+    "name": "ELBASAN LETTER O",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐴰",
+    "cp": "U+10D30",
+    "name": "HANIFI ROHINGYA DIGIT ZERO",
+    "bidi": "AN",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ע": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "ɤ",
+    "cp": "U+0264",
+    "name": "LATIN SMALL LETTER RAMS HORN",
+    "bidi": "L",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐺧",
+    "cp": "U+10EA7",
+    "name": "YEZIDI LETTER HAY",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𞤷",
+    "cp": "U+1E937",
+    "name": "ADLAM SMALL LETTER CHI",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𞥘",
+    "cp": "U+1E958",
+    "name": "ADLAM DIGIT EIGHT",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐔁",
+    "cp": "U+10501",
+    "name": "ELBASAN LETTER BE",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐔟",
+    "cp": "U+1051F",
+    "name": "ELBASAN LETTER U",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐐜",
+    "cp": "U+1041C",
+    "name": "DESERET CAPITAL LETTER THEE",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ɣ",
+    "cp": "U+0263",
+    "name": "LATIN SMALL LETTER GAMMA",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "Ꮘ",
+    "cp": "U+13C8",
+    "name": "CHEROKEE LETTER QUI",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "୪",
+    "cp": "U+0B6A",
+    "name": "ORIYA DIGIT FOUR",
+    "bidi": "L",
+    "source": [
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "פ": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐬟",
+    "cp": "U+10B1F",
+    "name": "AVESTAN LETTER FE",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𞠈",
+    "cp": "U+1E808",
+    "name": "MENDE KIKAKUI SYLLABLE M004 WI",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𞠉",
+    "cp": "U+1E809",
+    "name": "MENDE KIKAKUI SYLLABLE M005 WA",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐴶",
+    "cp": "U+10D36",
+    "name": "HANIFI ROHINGYA DIGIT SIX",
+    "bidi": "AN",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ခ",
+    "cp": "U+1001",
+    "name": "MYANMAR LETTER KHA",
+    "bidi": "L",
+    "source": [
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "៦",
+    "cp": "U+17E6",
+    "name": "KHMER DIGIT SIX",
+    "bidi": "L",
+    "source": [
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ף": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "₰",
+    "cp": "U+20B0",
+    "name": "GERMAN PENNY SIGN",
+    "bidi": "ET",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "Ⴥ",
+    "cp": "U+10C5",
+    "name": "GEORGIAN CAPITAL LETTER HOE",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐴌",
+    "cp": "U+10D0C",
+    "name": "HANIFI ROHINGYA LETTER RA",
+    "bidi": "AL",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ி",
+    "cp": "U+0BBF",
+    "name": "TAMIL VOWEL SIGN I",
+    "bidi": "L",
+    "source": [
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "צ": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐭽",
+    "cp": "U+10B7D",
+    "name": "INSCRIPTIONAL PAHLAVI NUMBER TWENTY",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐬢",
+    "cp": "U+10B22",
+    "name": "AVESTAN LETTER NGE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐬤",
+    "cp": "U+10B24",
+    "name": "AVESTAN LETTER NGVE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐨢",
+    "cp": "U+10A22",
+    "name": "KHAROSHTHI LETTER DHA",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐨕",
+    "cp": "U+10A15",
+    "name": "KHAROSHTHI LETTER CA",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐭣",
+    "cp": "U+10B63",
+    "name": "INSCRIPTIONAL PAHLAVI LETTER DALETH",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "Ȝ",
+    "cp": "U+021C",
+    "name": "LATIN CAPITAL LETTER YOGH",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ȝ",
+    "cp": "U+021D",
+    "name": "LATIN SMALL LETTER YOGH",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ɜ",
+    "cp": "U+025C",
+    "name": "LATIN SMALL LETTER REVERSED OPEN E",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ʒ",
+    "cp": "U+0292",
+    "name": "LATIN SMALL LETTER EZH",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ץ": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐐐",
+    "cp": "U+10410",
+    "name": "DESERET CAPITAL LETTER H",
+    "bidi": "L",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐔋",
+    "cp": "U+1050B",
+    "name": "ELBASAN LETTER GJE",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "φ",
+    "cp": "U+03C6",
+    "name": "GREEK SMALL LETTER PHI",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "₰",
+    "cp": "U+20B0",
+    "name": "GERMAN PENNY SIGN",
+    "bidi": "ET",
+    "source": [
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ק": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐔂",
+    "cp": "U+10502",
+    "name": "ELBASAN LETTER CE",
+    "bidi": "L",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐡒",
+    "cp": "U+10852",
+    "name": "IMPERIAL ARAMAIC LETTER QOPH",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐨯",
+    "cp": "U+10A2F",
+    "name": "KHAROSHTHI LETTER SA",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ר": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐨬",
+    "cp": "U+10A2C",
+    "name": "KHAROSHTHI LETTER VA",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐡐",
+    "cp": "U+10850",
+    "name": "IMPERIAL ARAMAIC LETTER PE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ש": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "ꫀ",
+    "cp": "U+AAC0",
+    "name": "TAI VIET TONE MAI NUENG",
+    "bidi": "L",
+    "source": [
+     "kobi-site",
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𐬞",
+    "cp": "U+10B1E",
+    "name": "AVESTAN LETTER PE",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "𞤠",
+    "cp": "U+1E920",
+    "name": "ADLAM CAPITAL LETTER KPO",
+    "bidi": "R",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ϱ",
+    "cp": "U+03F1",
+    "name": "GREEK RHO SYMBOL",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ܧ",
+    "cp": "U+0727",
+    "name": "SYRIAC LETTER REVERSED PE",
+    "bidi": "AL",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "🝥",
+    "cp": "U+1F765",
+    "name": "ALCHEMICAL SYMBOL FOR CRUCIBLE",
+    "bidi": "ON",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "౿",
+    "cp": "U+0C7F",
+    "name": "TELUGU SIGN TUUMU",
+    "bidi": "L",
+    "source": [
+     "kobi-sheet"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ },
+ "ת": {
+  "chosen": null,
+  "candidates": [
+   {
+    "char": "𐢞",
+    "cp": "U+1089E",
+    "name": "NABATAEAN LETTER TAW",
+    "bidi": "R",
+    "source": [
+     "kobi-site"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   },
+   {
+    "char": "ກ",
+    "cp": "U+0E81",
+    "name": "LAO LETTER KO",
+    "bidi": "L",
+    "source": [
+     "mark-2025-10-17"
+    ],
+    "android": null,
+    "ios": null,
+    "whatsapp": null
+   }
+  ]
+ }
+}
