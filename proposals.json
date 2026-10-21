@@ -210,42 +210,6 @@
    ]
   },
   {
-   "char": "𞠈",
-   "cp": "U+1E808",
-   "name": "MENDE KIKAKUI SYLLABLE M004 WI",
-   "bidi": "R",
-   "source": [
-    "claude-2"
-   ]
-  },
-  {
-   "char": "ᘑ",
-   "cp": "U+1611",
-   "name": "CANADIAN SYLLABICS CARRIER YEE",
-   "bidi": "L",
-   "source": [
-    "claude-2"
-   ]
-  },
-  {
-   "char": "ᘒ",
-   "cp": "U+1612",
-   "name": "CANADIAN SYLLABICS CARRIER YI",
-   "bidi": "L",
-   "source": [
-    "claude-2"
-   ]
-  },
-  {
-   "char": "ခ",
-   "cp": "U+1001",
-   "name": "MYANMAR LETTER KHA",
-   "bidi": "L",
-   "source": [
-    "claude-2"
-   ]
-  },
-  {
    "char": "ᨡ",
    "cp": "U+1A21",
    "name": "TAI THAM LETTER HIGH KHA",
@@ -3348,6 +3312,24 @@
    "bidi": "L",
    "source": [
     "claude-3"
+   ]
+  },
+  {
+   "char": "ᘑ",
+   "cp": "U+1611",
+   "name": "CANADIAN SYLLABICS CARRIER YEE",
+   "bidi": "L",
+   "source": [
+    "claude-2"
+   ]
+  },
+  {
+   "char": "ᘒ",
+   "cp": "U+1612",
+   "name": "CANADIAN SYLLABICS CARRIER YI",
+   "bidi": "L",
+   "source": [
+    "claude-2"
    ]
   }
  ],
