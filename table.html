@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,23 +9,23 @@
 <body>
 <main>
   <nav>
-    <h1>Таблица букв</h1>
-    <a href="index.html">Конвертер</a>
+    <h1>Letter table</h1>
+    <a href="index.html">Converter</a>
     <span class="muted" id="status"></span>
   </nav>
   <p class="muted">
-    Конвертер берёт первый символ (пунктирная рамка). Клик по символу закрепляет его вместо первого (сплошная рамка, повторный клик — снять).
-    Цвет — направление символа: синие RTL, оранжевые LTR, фиолетовые нейтральные (знаки, цифры).
-    Точечная рамка — предложение Claude (новые письменности могут не отображаться на телефоне): ✓ принять, ✕ отклонить (больше не появится). Пока не приняты, конвертер их не использует.
-    Порядок = приоритет: перетаскивайте карточки или жмите ◀ ▶ (номер — в начало).
-    Карточку можно перетащить и на другую букву — у старой она запомнится как отклонённая.
-    A / i / W — проверено на Android / iOS / WhatsApp (клик: ? → ✓ → ✗).
-    Правки хранятся черновиком в браузере; «Скачать JSON» — чтобы заменить mapping.json в репо.
+    The converter uses the first glyph (dashed frame). Clicking a glyph pins it instead (solid frame; click again to unpin).
+    Colour shows direction: blue RTL, orange LTR, purple neutral (signs, digits).
+    Dotted frame — a Claude proposal (newer scripts may not render on phones): ✓ accept, ✕ reject (it won't come back). The converter ignores proposals until accepted.
+    Order = priority: drag cards or use ◀ ▶ (the number moves a card to the front).
+    Drop a card on another letter to move it there — the old letter remembers it as rejected.
+    A / i / W — checked on Android / iOS / WhatsApp (click: ? → ✓ → ✗).
+    Edits are kept as a draft in this browser; “Download JSON” to replace mapping.json in the repo.
   </p>
   <div class="row">
-    <button id="download">Скачать JSON</button>
-    <button id="copyJson">Копировать JSON</button>
-    <button id="reset">Сбросить черновик</button>
+    <button id="download">Download JSON</button>
+    <button id="copyJson">Copy JSON</button>
+    <button id="reset">Reset draft</button>
   </div>
   <div id="letters"></div>
 </main>
@@ -84,7 +84,7 @@
   function save() {
     writeDraft(table);
     const chosen = Object.values(table).filter((e) => e.chosen).length;
-    document.getElementById("status").textContent = `${chosen}/${Object.keys(table).length} выбрано · черновик сохранён`;
+    document.getElementById("status").textContent = `${chosen}/${Object.keys(table).length} pinned · draft saved`;
   }
 
   function render() {
@@ -110,7 +110,7 @@
         const glyph = document.createElement("div");
         glyph.className = "glyph";
         glyph.textContent = cand.char;
-        glyph.title = "Выбрать";
+        glyph.title = "Pin";
         glyph.addEventListener("click", () => {
           entry.chosen = entry.chosen === cand.cp ? null : cand.cp;
           save();
@@ -146,13 +146,13 @@
           b.addEventListener("click", onClick);
           tools.append(b);
         };
-        toolButton("◀", "Выше по приоритету", () => move(entry, i, i - 1), i === 0);
-        toolButton(`${i + 1}`, "В начало", () => move(entry, i, 0), i === 0);
-        toolButton("▶", "Ниже по приоритету", () => move(entry, i, i + 1), i === entry.candidates.length - 1);
+        toolButton("◀", "Higher priority", () => move(entry, i, i - 1), i === 0);
+        toolButton(`${i + 1}`, "Move to front", () => move(entry, i, 0), i === 0);
+        toolButton("▶", "Lower priority", () => move(entry, i, i + 1), i === entry.candidates.length - 1);
         if (cand.proposed) {
-          toolButton("✓", "Принять предложение", () => { delete cand.proposed; save(); render(); });
+          toolButton("✓", "Accept proposal", () => { delete cand.proposed; save(); render(); });
         }
-        toolButton("✕", "Убрать", () => {
+        toolButton("✕", "Remove", () => {
           entry.candidates = entry.candidates.filter((c) => c !== cand);
           if (entry.chosen === cand.cp) entry.chosen = null;
           // Remember rejections so the same proposal doesn't come back on the next load.
@@ -187,7 +187,7 @@
       const add = document.createElement("div");
       add.className = "add";
       const input = document.createElement("input");
-      input.placeholder = "символ или U+XXXX";
+      input.placeholder = "glyph or U+XXXX";
       const btn = document.createElement("button");
       btn.textContent = "+";
       const doAdd = () => {
@@ -229,7 +229,7 @@
     clearDraft();
     table = (await loadTable()).table;
     render();
-    document.getElementById("status").textContent = "черновик сброшен";
+    document.getElementById("status").textContent = "draft reset";
   });
 
   (async () => {
@@ -239,7 +239,7 @@
     if (added) save();
     const proposed = Object.values(table).flatMap((e) => e.candidates).filter((c) => c.proposed).length;
     document.getElementById("status").textContent =
-      (loaded.fromDraft ? "открыт черновик" : "") + (proposed ? ` · предложений на проверку: ${proposed}` : "");
+      (loaded.fromDraft ? "draft loaded" : "") + (proposed ? ` · proposals to review: ${proposed}` : "");
     render();
   })();
 </script>

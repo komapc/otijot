@@ -10,30 +10,67 @@
 <main>
   <nav>
     <h1>Otijot</h1>
-    <a href="table.html">Таблица букв</a>
+    <a href="table.html">Letter table</a>
     <span class="muted" id="status"></span>
   </nav>
 
+  <!-- "Hebrew handwriting": letters keep flipping into random lookalikes (see hero() below). -->
+  <p class="hero" id="hero" dir="rtl" aria-label="עברית כתב יד">עברית כתב יד</p>
+
   <textarea id="input" dir="rtl" placeholder="כתבו כאן…"></textarea>
   <div class="row">
-    <button id="copy">Копировать</button>
-    <label><input type="checkbox" id="random"> Случайно</label>
-    <button id="reroll" hidden>🎲 Ещё раз</button>
+    <button id="copy">Copy</button>
+    <label><input type="checkbox" id="random"> Random</label>
+    <button id="reroll" hidden>🎲 Again</button>
     <span class="muted" id="copied"></span>
   </div>
   <div class="output" id="output" dir="rtl"></div>
   <p class="muted">
-    По умолчанию — выбранный символ, а если не выбран, первый по приоритету.
-    «Случайно» — любой из кандидатов буквы. Буквы без кандидатов остаются как есть.
+    By default each letter becomes its pinned glyph, or else the first one by priority.
+    “Random” picks any of the letter’s glyphs. Letters without glyphs stay as they are.
   </p>
 </main>
 <script src="common.js"></script>
 <script>
+  // Each letter sits in its own inline-block (so it can flip) and, being a lone glyph, gets dir=ltr:
+  // that keeps mirrored glyphs unflipped, while the rtl container still orders the boxes right to left.
+  function hero(table) {
+    const el = document.getElementById("hero");
+    const slots = [...el.textContent].map((ch) => {
+      const span = document.createElement("span");
+      span.textContent = ch;
+      span.dir = "ltr";
+      span.setAttribute("aria-hidden", "true");
+      if (ch === " ") span.className = "space";
+      return { ch, span, pool: [ch, ...usable(table[ch]).map((c) => c.char)] };
+    });
+    el.replaceChildren(...slots.map((s) => s.span));
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    const swap = (slot) => {
+      const options = slot.pool.filter((c) => c !== slot.span.textContent);
+      if (!options.length) return;
+      slot.span.classList.add("out");
+      setTimeout(() => {
+        slot.span.textContent = options[Math.floor(Math.random() * options.length)];
+        slot.span.classList.remove("out");
+      }, 220); // = the .out transition in style.css
+    };
+    const live = slots.filter((s) => s.pool.length > 1);
+    setInterval(() => {
+      if (document.hidden) return;
+      const n = 1 + Math.floor(Math.random() * 3);
+      for (let k = 0; k < n; k++) setTimeout(() => swap(live[Math.floor(Math.random() * live.length)]), k * 90);
+    }, 1100);
+  }
+
   (async () => {
     const { table, fromDraft } = await loadTable();
     const mapped = Object.values(table).filter((e) => e.candidates.length).length;
     document.getElementById("status").textContent =
-      `${mapped}/${Object.keys(table).length} букв в таблице` + (fromDraft ? " (черновик)" : "");
+      `${mapped}/${Object.keys(table).length} letters mapped` + (fromDraft ? " (draft)" : "");
+
+    hero(table);
 
     const input = document.getElementById("input");
     const output = document.getElementById("output");
@@ -54,7 +91,7 @@
 
     document.getElementById("copy").addEventListener("click", async () => {
       await navigator.clipboard.writeText(output.textContent);
-      document.getElementById("copied").textContent = "Скопировано";
+      document.getElementById("copied").textContent = "Copied";
       setTimeout(() => { document.getElementById("copied").textContent = ""; }, 1500);
     });
   })();
